@@ -19,6 +19,14 @@ public class FooterLinksPageObject extends BasePageObject {
 		
 	}
 	
+	//By bottom=By.xpath("//p[contains(normalize-space(),'Copyright © IPL 2026 All Rights Reserved.')]");
+	
+	public void scrollToBottom() {
+		
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+		
+	}
+	
 	public List<String> getSectionLinks(String sectionName) {
 		By sectionTitleLocator=By.xpath("//h2[normalize-space()='"+sectionName+"']");
 		

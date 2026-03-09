@@ -14,6 +14,8 @@ public class TC001_FooterLinks extends BaseTest {
 	public void  verifyFooterLinks() {
 		FooterLinksPageObject flpo=new FooterLinksPageObject(driver);
 		
+		flpo.scrollToBottom();
+		
 		String sectionNames[]= {"TEAM","ABOUT","GUIDELINES","CONTACT"};
 		
 		for(String title: sectionNames) {
