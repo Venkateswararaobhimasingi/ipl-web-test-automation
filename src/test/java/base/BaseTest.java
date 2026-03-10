@@ -12,45 +12,42 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 public class BaseTest {
-	
+
 	protected WebDriver driver;
-	
+
 	@BeforeClass
-	@Parameters({"browser"})
+	@Parameters({ "browser" })
 	public void setUp(String browser) {
-		
+
 		switch (browser.toLowerCase()) {
 		case "chrome":
-			driver=new ChromeDriver();
+			driver = new ChromeDriver();
 			break;
-			
+
 		case "edge":
-			driver=new EdgeDriver();
+			driver = new EdgeDriver();
 			break;
 		case "firefox":
-			driver=new FirefoxDriver();
+			driver = new FirefoxDriver();
 			break;
 
 		default:
 			System.out.println("Browser name is not found");
-			return ;
-		
-			
+			return;
+
 		}
-		
+
 		driver.manage().window().maximize();
-		
+
 		driver.get("https://www.iplt20.com/");
-		
-		
-		
+
 	}
-	
+
 	@AfterClass
 	public void tearDown() {
-		
+
 		driver.quit();
-		
+
 	}
 
 }
