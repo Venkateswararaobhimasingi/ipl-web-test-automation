@@ -15,11 +15,16 @@ public class HomePageObject extends BasePageObject {
 
 	public HomePageObject(WebDriver driver) {
 		super(driver);
-		// TODO Auto-generated constructor stub
 	}
 
-	// By bottom=By.xpath("//p[contains(normalize-space(),'Copyright © IPL 2026 All
-	// Rights Reserved.')]");
+	// By bottom=By.xpath("//p[contains(normalize-space(),'Copyright © IPL 2026 All Rights Reserved.')]");
+	
+	@FindBy(xpath = "//ul[@class='site-menu main-menu js-clone-nav d-none d-lg-block textCenter']/li/a[@data-element_text='POINTS TABLE']")
+	WebElement lnk_pointTable;
+
+	public void clickPointsTable() {
+		lnk_pointTable.click();
+	}
 
 	public void scrollToBottom() {
 
@@ -54,11 +59,6 @@ public class HomePageObject extends BasePageObject {
 
 	}
 
-	@FindBy(xpath = "//ul[@class='site-menu main-menu js-clone-nav d-none d-lg-block textCenter']/li/a[@data-element_text='POINTS TABLE']")
-	WebElement lnk_pointTable;
-
-	public void clickPointsTable() {
-		lnk_pointTable.click();
-	}
+	
 
 }

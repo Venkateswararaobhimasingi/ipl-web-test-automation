@@ -12,15 +12,15 @@ public class TC001_FooterLinks extends BaseTest {
 
 	@Test
 	public void verifyFooterLinks() {
-		HomePageObject flpo = new HomePageObject(driver);
+		HomePageObject hpo = new HomePageObject(driver);
 
-		flpo.scrollToBottom();
+		hpo.scrollToBottom();
 
 		String sectionNames[] = { "TEAM", "ABOUT", "GUIDELINES", "CONTACT" };
 
 		for (String title : sectionNames) {
 
-			List<String> sectionLinks = flpo.getSectionLinks(title);
+			List<String> sectionLinks = hpo.getSectionLinks(title);
 
 			if (sectionLinks.size() > 0) {
 				System.out.println(title + " links are present");
