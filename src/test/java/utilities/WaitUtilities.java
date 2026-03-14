@@ -17,7 +17,7 @@ public class WaitUtilities {
 		return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 	}
 	
-	public static List<WebElement> WaitForAllElementsVisible(WebDriverWait wait,By locator) {
+	public static List<WebElement> waitForAllElementsVisible(WebDriverWait wait,By locator) {
 		
 		return wait.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(locator));
 	}

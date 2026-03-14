@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-10T16:15:27 IST" name="IPL Chrome Suite" finished-at="2026-03-10T16:15:41 IST" duration-ms="14273">
+  <suite started-at="2026-03-14T23:48:13 IST" name="IPL Chrome Suite" finished-at="2026-03-14T23:48:44 IST" duration-ms="31808">
     <groups>
     </groups>
-    <test started-at="2026-03-10T16:15:27 IST" name="Test" finished-at="2026-03-10T16:15:41 IST" duration-ms="14273">
+    <test started-at="2026-03-14T23:48:13 IST" name="Test" finished-at="2026-03-14T23:48:44 IST" duration-ms="31808">
       <class name="testCases.TC003_PointTableValidation">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@5170bcf4]" started-at="2026-03-10T16:15:36 IST" name="setUp" finished-at="2026-03-10T16:15:39 IST" duration-ms="2708" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@51c693d]" started-at="2026-03-14T23:48:28 IST" name="setUp" finished-at="2026-03-14T23:48:35 IST" duration-ms="6513" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@5170bcf4]" started-at="2026-03-10T16:15:39 IST" name="testTeamNameAtRank1" finished-at="2026-03-10T16:15:41 IST" duration-ms="1782" status="PASS">
+        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@51c693d]" started-at="2026-03-14T23:48:35 IST" name="testTeamNameAtRank1" finished-at="2026-03-14T23:48:43 IST" duration-ms="8267" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeamNameAtRank1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@5170bcf4]" started-at="2026-03-10T16:15:41 IST" name="tearDown" finished-at="2026-03-10T16:15:41 IST" duration-ms="250" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@51c693d]" started-at="2026-03-14T23:48:43 IST" name="tearDown" finished-at="2026-03-14T23:48:44 IST" duration-ms="1569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_PointTableValidation -->
       <class name="testCases.TC001_FooterLinks">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@6d026701]" started-at="2026-03-10T16:15:27 IST" name="setUp" finished-at="2026-03-10T16:15:33 IST" duration-ms="6458" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@266374ef]" started-at="2026-03-14T23:48:13 IST" name="setUp" finished-at="2026-03-14T23:48:26 IST" duration-ms="13053" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@6d026701]" started-at="2026-03-10T16:15:33 IST" name="verifyFooterLinks" finished-at="2026-03-10T16:15:36 IST" duration-ms="2759" status="PASS">
+        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@266374ef]" started-at="2026-03-14T23:48:26 IST" name="verifyFooterLinks" finished-at="2026-03-14T23:48:27 IST" duration-ms="1647" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFooterLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@6d026701]" started-at="2026-03-10T16:15:36 IST" name="tearDown" finished-at="2026-03-10T16:15:36 IST" duration-ms="262" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@266374ef]" started-at="2026-03-14T23:48:27 IST" name="tearDown" finished-at="2026-03-14T23:48:28 IST" duration-ms="668" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

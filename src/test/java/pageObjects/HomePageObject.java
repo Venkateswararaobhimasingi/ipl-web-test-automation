@@ -17,13 +17,33 @@ public class HomePageObject extends BasePageObject {
 		super(driver);
 	}
 
-	// By bottom=By.xpath("//p[contains(normalize-space(),'Copyright © IPL 2026 All Rights Reserved.')]");
+	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='TEAMS']") WebElement navBarTeamsLink;
 	
-	@FindBy(xpath = "//ul[@class='site-menu main-menu js-clone-nav d-none d-lg-block textCenter']/li/a[@data-element_text='POINTS TABLE']")
-	WebElement lnk_pointTable;
+	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='POINTS TABLE']") List<WebElement> navBarPointsTableLink;
+	
+	
+	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='MATCHES']") WebElement navBarMatchesLink;
+	
+	@FindBy(xpath = "//div[contains(@class,'matches-tabs')]//a[contains(.,'POINTS TABLE')]") WebElement matchesNavBarPointsTableLink;
+	
+	
 
-	public void clickPointsTable() {
-		lnk_pointTable.click();
+	public void navigateToPointsTable() {
+		
+		boolean isPointsTablePresent=navBarPointsTableLink.isEmpty();
+		
+		if(!isPointsTablePresent) {
+			
+			navBarPointsTableLink.get(0).click();
+		}
+		else {
+			
+			navBarMatchesLink.click();
+			
+			matchesNavBarPointsTableLink.click();
+			
+		}
+		
 	}
 
 	public void scrollToBottom() {
@@ -37,14 +57,14 @@ public class HomePageObject extends BasePageObject {
 
 		WebElement sectionTitle = WaitUtilities.waitForElementPresence(wait, sectionTitleLocator);
 
-		js.executeScript("arguments[0].scrollIntoView(true);", sectionTitle);
+		//js.executeScript("arguments[0].scrollIntoView(true);", sectionTitle);
 
 		sectionTitle = WaitUtilities.waitForElementVisible(wait, sectionTitleLocator);
 
 		By sectionLinksLocator = By
 				.xpath("//h2[normalize-space()='" + sectionName + "']/following-sibling::*//a[@href]");
 
-		List<WebElement> sectionLinks = WaitUtilities.WaitForAllElementsVisible(wait, sectionLinksLocator);
+		List<WebElement> sectionLinks = WaitUtilities.waitForAllElementsVisible(wait, sectionLinksLocator);
 
 		List<String> sectionLinksText = new ArrayList<>();
 

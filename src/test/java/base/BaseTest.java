@@ -1,12 +1,15 @@
 package base;
 
-import java.sql.Driver;
+
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -14,10 +17,18 @@ import org.testng.annotations.Parameters;
 public class BaseTest {
 
 	protected WebDriver driver;
+	protected Properties p;
 
 	@BeforeClass
 	@Parameters({ "browser" })
 	public void setUp(String browser) {
+		
+		try {
+		
+		FileReader file=new FileReader("./src//test//resources//config.properties");
+		
+		p=new Properties();
+		p.load(file);
 
 		switch (browser.toLowerCase()) {
 		case "chrome":
@@ -36,10 +47,18 @@ public class BaseTest {
 			return;
 
 		}
+		
+		
 
 		driver.manage().window().maximize();
 
-		driver.get("https://www.iplt20.com/");
+		driver.get(p.getProperty("url"));
+		
+		}
+		catch (IOException e) {
+			 e.printStackTrace();
+		}
+		
 
 	}
 

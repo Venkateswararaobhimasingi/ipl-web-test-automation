@@ -13,42 +13,42 @@ public class PointsTablePageObject extends BasePageObject {
 
 	}
 
-	@FindBy(xpath = "//tbody[@id='pointsdata']//tr/td[text()=' 1 ']/following-sibling::td[@class='ih-t-color']//h2")
+	@FindBy(xpath = "(//tbody[@id='pointsdata']/tr)[1]//h2")
 	WebElement txt_teamRank1;
 
 	public String getTeamRank1() {
 		return txt_teamRank1.getText();
 	}
 
-	@FindBy(xpath = "//tbody[@id='pointsdata']//tr/td[text()=' 1 ']/following-sibling::td[@class='ng-binding'][1]")
+	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[2]")
 	WebElement txt_matchPlayed;
 
 	public int getMatchPlayed() {
 		return Integer.parseInt(txt_matchPlayed.getText());
 	}
 
-	@FindBy(xpath = "//tbody[@id='pointsdata']//tr/td[text()=' 1 ']/following-sibling::td[@class='ng-binding'][2]")
+	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[3]")
 	WebElement txt_win;
 
 	public int getMatchWin() {
 		return Integer.parseInt(txt_win.getText());
 	}
 
-	@FindBy(xpath = "//tbody[@id='pointsdata']//tr/td[text()=' 1 ']/following-sibling::td[@class='ng-binding'][3]")
+	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[4]")
 	WebElement txt_lost;
 
 	public int getMatchLost() {
 		return Integer.parseInt(txt_lost.getText());
 	}
 
-	@FindBy(xpath = "//tbody[@id='pointsdata']//tr/td[text()=' 1 ']/following-sibling::td[6]")
+	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[5]")
 	WebElement txt_tied;
 
 	public int getMatchTied() {
 		return Integer.parseInt(txt_tied.getText());
 	}
 
-	@FindBy(xpath = "//tbody[@id='pointsdata']//tr/td[text()=' 1 ']/following-sibling::td[@class='bt ng-binding']")
+	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[9]")
 	WebElement txt_points;
 
 	public int getMatchPoints() {
