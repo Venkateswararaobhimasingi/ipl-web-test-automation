@@ -24,7 +24,10 @@ public class HomePageObject extends BasePageObject {
 	
 	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='MATCHES']") WebElement navBarMatchesLink;
 	
-	@FindBy(xpath = "//div[contains(@class,'matches-tabs')]//a[contains(.,'POINTS TABLE')]") WebElement matchesNavBarPointsTableLink;
+	@FindBy(xpath = "//div[contains(@class,'matches-tabs')]//a[contains(text(),'POINTS TABLE')]") WebElement matchesNavBarPointsTableLink;
+	
+	By cookieBtn = By.xpath("//button[normalize-space()='Accept cookies']");
+	
 	
 	
 
@@ -45,6 +48,14 @@ public class HomePageObject extends BasePageObject {
 		}
 		
 	}
+	
+	public void navigateToTeams() {
+		
+		navBarTeamsLink.click();
+	}
+	
+	
+	
 
 	public void scrollToBottom() {
 
@@ -77,6 +88,18 @@ public class HomePageObject extends BasePageObject {
 
 		return sectionLinksText;
 
+	}
+	
+	public void handleCookies() {
+
+		List<WebElement> btns = driver.findElements(cookieBtn);
+
+		if (!btns.isEmpty() && btns.get(0).isDisplayed()) {
+		    btns.get(0).click();
+		    
+		} else {
+		    System.out.println("Cookie not present or already accepted");
+		}
 	}
 
 	

@@ -10,7 +10,10 @@
      
     <classes>
       <class name="testCases.TC001_FooterLinks"/> 
-      <class name="testCases.TC003_PointTableValidation" />
+      <class name="testCases.TC002_TeamDetailsTest"></class>
+      <class name="testCases.TC003_PointTableValidation" />  
+      
+      
      
 
     </classes>

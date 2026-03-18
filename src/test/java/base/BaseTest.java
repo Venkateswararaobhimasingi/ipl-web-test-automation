@@ -14,6 +14,8 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import pageObjects.HomePageObject;
+
 public class BaseTest {
 
 	protected WebDriver driver;
@@ -54,6 +56,9 @@ public class BaseTest {
 
 		driver.get(p.getProperty("url"));
 		
+		
+		HomePageObject hp=new HomePageObject(driver);
+		hp.handleCookies();
 		}
 		catch (IOException e) {
 			 e.printStackTrace();

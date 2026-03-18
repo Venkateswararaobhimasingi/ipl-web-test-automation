@@ -13,7 +13,9 @@ public class TC001_FooterLinks extends BaseTest {
 	@Test
 	public void verifyFooterLinks() {
 		HomePageObject hpo = new HomePageObject(driver);
-
+		
+		
+		
 		hpo.scrollToBottom();
 
 		String sectionNames[] = { "TEAM", "ABOUT", "GUIDELINES", "CONTACT" };
