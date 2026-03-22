@@ -14,35 +14,41 @@ import utilities.DataProviderUtilities;
 
 public class TC002_TeamDetailsTest extends BaseTest{
 	
-	HomePageObject hpo;
+	
 	TeamDetailsPageObject tpo;
 	
 	
 	@Test(dataProvider = "iplTeamData",dataProviderClass=DataProviderUtilities.class)
 	public void verifyTeamDetails(String teamName,String teamCode,String expectedLogo,String expectedYears) {
 		
-		
+		    logger.info("===== Test Case: Verify Team Details Started =====");
+		    logger.info("Executing for Team: " + teamName );
 		    
-			hpo= new HomePageObject(driver);
-			
 			hpo.navigateToTeams();
+			logger.info("Navigated to Teams page");
 			
 			tpo= new TeamDetailsPageObject(driver);
-			System.out.println("team "+teamName);
+			
+			logger.info("Checking if team logo is displayed for: " + teamName);
 			boolean isTeamLogoDisplayed= tpo.teamLogoIsDisplayed(teamCode);
 			
-			if(Boolean.valueOf(expectedLogo)==isTeamLogoDisplayed) {}
-			System.out.println("dis"+teamName);
+			
+			logger.debug("Expected Logo: " + expectedLogo + " Actual: " + isTeamLogoDisplayed);
 			
 			Assert.assertEquals(Boolean.valueOf(expectedLogo), isTeamLogoDisplayed,"Logo of the is not displayed"+teamName);
+			logger.info("Logo validation passed for: " + teamName);
 			
-			tpo.hoverOnTeamLogo(teamCode, teamName);
+			logger.info("Hovering on team logo: " + teamName);
+			tpo.hoverOnTeamLogo(teamCode);
 			
 			
 			String actualWinningYears=tpo.getWinningYears(teamCode);
+			logger.debug("Actual Winning Years: " + actualWinningYears);
+	        logger.debug("Expected Winning Years: " + expectedYears);
+	        
 			if(actualWinningYears.equals("NA")) {
 				
-				System.out.println("NA "+teamCode+" "+actualWinningYears+" "+expectedYears);
+				logger.info("No titles found (NA) for team: " + teamName);
 				Assert.assertEquals(actualWinningYears, expectedYears);
 				
 				
@@ -53,15 +59,15 @@ public class TC002_TeamDetailsTest extends BaseTest{
 				
 				String[] expectedYearsList=expectedYears.replaceAll(" ","").split(",");
 				
-				System.out.println("a1 "+Arrays.toString(winningYearsList));
-				
-				System.out.println("a2 "+Arrays.toString(expectedYearsList));
+				logger.debug("Actual Years List: " + Arrays.toString(winningYearsList));
+	            logger.debug("Expected Years List: " + Arrays.toString(expectedYearsList));
 				
 				Assert.assertEquals(winningYearsList, expectedYearsList,"Winning years mismatch for team: " + teamName);
-				System.out.println("done "+teamCode);
+				logger.info("Winning years validation passed for: " + teamName);
 			
 			}
 			
+			logger.info("===== Test Case Completed for Team: " + teamName + " =====");
 	
 		
 	}

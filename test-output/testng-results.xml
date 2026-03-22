@@ -1,24 +1,170 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="6" passed="0" failed="6" skipped="0">
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-22T13:22:04 IST" name="Failed suite [IPL Chrome Suite]" finished-at="2026-03-22T13:22:22 IST" duration-ms="17987">
+  <suite started-at="2026-03-22T23:10:24 IST" name="IPL Chrome Suite" finished-at="2026-03-22T23:11:09 IST" duration-ms="44774">
     <groups>
     </groups>
-    <test started-at="2026-03-22T13:22:04 IST" name="Test(failed)" finished-at="2026-03-22T13:22:22 IST" duration-ms="17987">
-      <class name="testCases.TC002_TeamDetailsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:04 IST" name="setUp" finished-at="2026-03-22T13:22:14 IST" duration-ms="9905" status="PASS">
+    <test started-at="2026-03-22T23:10:24 IST" name="Test" finished-at="2026-03-22T23:11:09 IST" duration-ms="44774">
+      <class name="testCases.TC003_PointTableValidation">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@7862f56]" started-at="2026-03-22T23:10:54 IST" name="setUp" finished-at="2026-03-22T23:10:59 IST" duration-ms="4480" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:15 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T13:22:16 IST" duration-ms="1288" status="FAIL">
+        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@7862f56]" started-at="2026-03-22T23:10:59 IST" name="testTeamNameAtRank1" finished-at="2026-03-22T23:11:01 IST" duration-ms="1989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTeamNameAtRank1 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@7862f56]" started-at="2026-03-22T23:11:01 IST" name="tearDown" finished-at="2026-03-22T23:11:01 IST" duration-ms="244" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC003_PointTableValidation -->
+      <class name="testCases.TC004_SearchFunctionality">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC004_SearchFunctionality@3a12c404]" started-at="2026-03-22T23:11:01 IST" name="setUp" finished-at="2026-03-22T23:11:06 IST" duration-ms="5362" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="search()[pri:0, instance:testCases.TC004_SearchFunctionality@3a12c404]" started-at="2026-03-22T23:11:06 IST" name="search" finished-at="2026-03-22T23:11:08 IST" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchFunctionality@3a12c404]" started-at="2026-03-22T23:11:08 IST" name="tearDown" finished-at="2026-03-22T23:11:09 IST" duration-ms="267" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_SearchFunctionality -->
+      <class name="testCases.TC002_TeamDetailsTest">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:35 IST" name="setUp" finished-at="2026-03-22T23:10:39 IST" duration-ms="4200" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:40 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:43 IST" duration-ms="2748" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chennai Super Kings]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[CSK]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2010, 2011, 2018, 2021, 2023]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamDetails -->
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:43 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:45 IST" duration-ms="2209" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Delhi Capitals]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[DC]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[NA]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamDetails -->
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:45 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:46 IST" duration-ms="866" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Gujarat Titans]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[GT]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2022]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamDetails -->
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:46 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:47 IST" duration-ms="762" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Kolkata Knight Riders]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[KKR]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2012, 2014, 2024]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTeamDetails -->
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:47 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:48 IST" duration-ms="1291" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -41,58 +187,10 @@
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Move target (300, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@221762b0]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (300, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@221762b0]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at pageObjects.TeamDetailsPageObject.hoverOnTeamLogo(TeamDetailsPageObject.java:36)
-at testCases.TC002_TeamDetailsTest.verifyTeamDetails(TC002_TeamDetailsTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:16 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T13:22:17 IST" duration-ms="669" status="FAIL">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:48 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:49 IST" duration-ms="1187" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -115,58 +213,10 @@ at java.base/java.lang.Thread.run(Thread.java:1575)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Move target (612, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@5ff7b833]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (612, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@5ff7b833]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at pageObjects.TeamDetailsPageObject.hoverOnTeamLogo(TeamDetailsPageObject.java:36)
-at testCases.TC002_TeamDetailsTest.verifyTeamDetails(TC002_TeamDetailsTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:17 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T13:22:18 IST" duration-ms="619" status="FAIL">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:49 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:50 IST" duration-ms="1368" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,58 +239,10 @@ at java.base/java.lang.Thread.run(Thread.java:1575)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Move target (923, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@1fba9a22]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (923, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@1fba9a22]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at pageObjects.TeamDetailsPageObject.hoverOnTeamLogo(TeamDetailsPageObject.java:36)
-at testCases.TC002_TeamDetailsTest.verifyTeamDetails(TC002_TeamDetailsTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:18 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T13:22:18 IST" duration-ms="677" status="FAIL">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:50 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:52 IST" duration-ms="1221" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -263,58 +265,10 @@ at java.base/java.lang.Thread.run(Thread.java:1575)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Move target (1235, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@2b4f3cd0]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (1235, 796) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@2b4f3cd0]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at pageObjects.TeamDetailsPageObject.hoverOnTeamLogo(TeamDetailsPageObject.java:36)
-at testCases.TC002_TeamDetailsTest.verifyTeamDetails(TC002_TeamDetailsTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:18 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T13:22:19 IST" duration-ms="604" status="FAIL">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:52 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:53 IST" duration-ms="1113" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -337,58 +291,10 @@ at java.base/java.lang.Thread.run(Thread.java:1575)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Move target (611, 952) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@304791b4]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (611, 952) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@304791b4]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at pageObjects.TeamDetailsPageObject.hoverOnTeamLogo(TeamDetailsPageObject.java:36)
-at testCases.TC002_TeamDetailsTest.verifyTeamDetails(TC002_TeamDetailsTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:19 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T13:22:20 IST" duration-ms="796" status="FAIL">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:53 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-03-22T23:10:54 IST" duration-ms="1118" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -411,62 +317,35 @@ at java.base/java.lang.Thread.run(Thread.java:1575)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
-            <message>
-              <![CDATA[Move target (923, 952) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@38c4f58d]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Move target (923, 952) is out of bounds of viewport dimensions (1536, 731)
-Build info: version: '4.40.0', revision: 'b3333f1'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [62d15a45-de6b-45c0-9881-ed7dff0394af, actions {actions=[org.openqa.selenium.interactions.Sequence@38c4f58d]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 148.0.2, moz:accessibilityChecks: false, moz:buildID: 20260309125808, moz:geckodriverVersion: 0.36.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 11356, moz:profile: C:\Users\IA480~1.SAI\AppDat..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
-Session ID: 62d15a45-de6b-45c0-9881-ed7dff0394af
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:691)
-at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:616)
-at pageObjects.TeamDetailsPageObject.hoverOnTeamLogo(TeamDetailsPageObject.java:36)
-at testCases.TC002_TeamDetailsTest.verifyTeamDetails(TC002_TeamDetailsTest.java:39)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
-at java.base/java.lang.Thread.run(Thread.java:1575)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_TeamDetailsTest@6d026701]" started-at="2026-03-22T13:22:20 IST" name="tearDown" finished-at="2026-03-22T13:22:22 IST" duration-ms="1997" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_TeamDetailsTest@517d4a0d]" started-at="2026-03-22T23:10:54 IST" name="tearDown" finished-at="2026-03-22T23:10:54 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_TeamDetailsTest -->
-    </test> <!-- Test(failed) -->
-  </suite> <!-- Failed suite [IPL Chrome Suite] -->
+      <class name="testCases.TC001_FooterLinks">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@134d26af]" started-at="2026-03-22T23:10:24 IST" name="setUp" finished-at="2026-03-22T23:10:34 IST" duration-ms="9905" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@134d26af]" started-at="2026-03-22T23:10:34 IST" name="verifyFooterLinks" finished-at="2026-03-22T23:10:35 IST" duration-ms="815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@134d26af]" started-at="2026-03-22T23:10:35 IST" name="tearDown" finished-at="2026-03-22T23:10:35 IST" duration-ms="273" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC001_FooterLinks -->
+    </test> <!-- Test -->
+  </suite> <!-- IPL Chrome Suite -->
 </testng-results>

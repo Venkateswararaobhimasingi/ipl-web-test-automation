@@ -5,7 +5,7 @@ import java.util.List;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import base.BasePageObject;
 import utilities.WaitUtilities;
@@ -28,13 +28,18 @@ public class TeamDetailsPageObject extends BasePageObject {
 	}
 	
 	
-	public void hoverOnTeamLogo(String teamCode ,String teamName) {
-		By teamTitleLocator= By.xpath("//li[@class='TL_"+teamCode+"']//h3[contains(text(),'"+teamName+"')]");
-		
-		WebElement teamTitle=WaitUtilities.waitForElementVisible(wait, teamTitleLocator);
-		
-		actions.moveToElement(teamTitle).build().perform();
-		
+	public void hoverOnTeamLogo(String teamCode) {
+
+	    By teamCardLocator = By.xpath("//li[contains(@class,'TL_" + teamCode + "')]");
+
+	    WebElement teamCard = WaitUtilities.waitForElementVisible(wait, teamCardLocator);
+	 
+
+	    js.executeScript("arguments[0].scrollIntoView({block: 'center'});",	teamCard);
+
+	    WaitUtilities.waitForElementInViewport(wait, teamCard);
+
+	    actions.moveToElement(teamCard).perform();
 	}
 	
 	public String getWinningYears(String teamCode) {

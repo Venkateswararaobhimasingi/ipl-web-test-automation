@@ -10,9 +10,6 @@ public class TC003_PointTableValidation extends base.BaseTest {
 
 	@Test
 	public void testTeamNameAtRank1() {
-		HomePageObject hpo = new HomePageObject(driver);
-		
-	
 		
 		hpo.navigateToPointsTable();
 

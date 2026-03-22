@@ -1,0 +1,199 @@
+23:10:24.096 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\B.VENKATESWARA RAO\selenium-practice\IPLWebTestAutomation\testng_chrome.xml"
+23:10:24.397 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\B.VENKATESWARA RAO\selenium-practice\IPLWebTestAutomation\testng_chrome.xml
+
+23:10:24.440 [main] INFO  testCases.TC001_FooterLinks - ===== Test Execution Started =====
+23:10:30.137 [main] INFO  testCases.TC001_FooterLinks - Launching CHROME Browser
+23:10:34.181 [main] INFO  testCases.TC001_FooterLinks - Navigated to URL: https://www.iplt20.com/
+23:10:34.329 [main] INFO  testCases.TC001_FooterLinks - Handled cookies popup
+23:10:34.353 [main] INFO  testCases.TC001_FooterLinks - ===== Test Case: Verify Footer Links Started =====
+23:10:34.367 [main] INFO  testCases.TC001_FooterLinks - Scrolled to bottom of the page
+23:10:34.367 [main] INFO  testCases.TC001_FooterLinks - Verifying section: TEAM
+23:10:34.679 [main] INFO  testCases.TC001_FooterLinks - TEAM links are present
+23:10:34.680 [main] INFO  testCases.TC001_FooterLinks - Link count: 10
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Chennai Super Kings
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Delhi Capitals
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Gujarat Titans
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Kolkata Knight Riders
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Lucknow Super Giants
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Mumbai Indians
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Punjab Kings
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Rajasthan Royals
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Royal Challengers Bengaluru
+23:10:34.680 [main] DEBUG testCases.TC001_FooterLinks - Link: Sunrisers Hyderabad
+23:10:34.680 [main] INFO  testCases.TC001_FooterLinks - Verifying section: ABOUT
+23:10:34.883 [main] INFO  testCases.TC001_FooterLinks - ABOUT links are present
+23:10:34.884 [main] INFO  testCases.TC001_FooterLinks - Link count: 9
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: About Us
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: Anti Corruption Code
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: Anti Doping Rules
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: TUE Application Form
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: Anti Discrimination Code
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: Clothing And Equipment Regulations
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: Code Of Conduct For Players And Teams Officials
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: News Access Regulations
+23:10:34.884 [main] DEBUG testCases.TC001_FooterLinks - Link: Image Use Terms
+23:10:34.884 [main] INFO  testCases.TC001_FooterLinks - Verifying section: GUIDELINES
+23:10:35.022 [main] INFO  testCases.TC001_FooterLinks - GUIDELINES links are present
+23:10:35.022 [main] INFO  testCases.TC001_FooterLinks - Link count: 6
+23:10:35.023 [main] DEBUG testCases.TC001_FooterLinks - Link: IPL Code Of Conduct For Match Officials
+23:10:35.023 [main] DEBUG testCases.TC001_FooterLinks - Link: Brand And Protection Guidelines
+23:10:35.023 [main] DEBUG testCases.TC001_FooterLinks - Link: Governing Council
+23:10:35.023 [main] DEBUG testCases.TC001_FooterLinks - Link: Match Playing Conditions
+23:10:35.023 [main] DEBUG testCases.TC001_FooterLinks - Link: PMOA Minimum Standard
+23:10:35.023 [main] DEBUG testCases.TC001_FooterLinks - Link: Suspect Action Policy
+23:10:35.023 [main] INFO  testCases.TC001_FooterLinks - Verifying section: CONTACT
+23:10:35.152 [main] INFO  testCases.TC001_FooterLinks - CONTACT links are present
+23:10:35.152 [main] INFO  testCases.TC001_FooterLinks - Link count: 4
+23:10:35.152 [main] DEBUG testCases.TC001_FooterLinks - Link: Contact Us
+23:10:35.152 [main] DEBUG testCases.TC001_FooterLinks - Link: Sponsorship
+23:10:35.152 [main] DEBUG testCases.TC001_FooterLinks - Link: Privacy Policy
+23:10:35.152 [main] DEBUG testCases.TC001_FooterLinks - Link: Terms & Conditions
+23:10:35.152 [main] INFO  testCases.TC001_FooterLinks - Test Case Pass All footer sections have links
+23:10:35.154 [main] INFO  testCases.TC001_FooterLinks - ===== Test Case Finished =====
+23:10:35.430 [main] INFO  testCases.TC001_FooterLinks - Browser closed
+23:10:35.430 [main] INFO  testCases.TC001_FooterLinks - ===== Test Execution Finished =====
+23:10:35.433 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Execution Started =====
+23:10:36.325 [main] INFO  testCases.TC002_TeamDetailsTest - Launching CHROME Browser
+23:10:39.525 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to URL: https://www.iplt20.com/
+23:10:39.632 [main] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+23:10:39.889 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+23:10:39.895 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+23:10:40.434 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:40.434 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Chennai Super Kings
+23:10:42.960 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:42.963 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Chennai Super Kings
+23:10:42.991 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:42.991 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Chennai Super Kings
+23:10:42.991 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Chennai Super Kings
+23:10:43.177 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2010 | 2011 | 2018 | 2021 | 2023
+23:10:43.178 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2010, 2011, 2018, 2021, 2023
+23:10:43.178 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2010, 2011, 2018, 2021, 2023]
+23:10:43.178 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2010, 2011, 2018, 2021, 2023]
+23:10:43.178 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Chennai Super Kings
+23:10:43.178 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Chennai Super Kings =====
+23:10:43.180 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:43.180 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Delhi Capitals
+23:10:45.201 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:45.202 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Delhi Capitals
+23:10:45.227 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:45.227 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Delhi Capitals
+23:10:45.227 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Delhi Capitals
+23:10:45.388 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+23:10:45.388 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+23:10:45.388 [main] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Delhi Capitals
+23:10:45.388 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Delhi Capitals =====
+23:10:45.391 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:45.391 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Gujarat Titans
+23:10:46.055 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:46.055 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Gujarat Titans
+23:10:46.082 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:46.082 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Gujarat Titans
+23:10:46.082 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Gujarat Titans
+23:10:46.256 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2022
+23:10:46.256 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2022
+23:10:46.256 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2022]
+23:10:46.256 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2022]
+23:10:46.256 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Gujarat Titans
+23:10:46.256 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Gujarat Titans =====
+23:10:46.259 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:46.259 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Kolkata Knight Riders
+23:10:46.819 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:46.819 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Kolkata Knight Riders
+23:10:46.847 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:46.847 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Kolkata Knight Riders
+23:10:46.847 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Kolkata Knight Riders
+23:10:47.019 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2012 | 2014 | 2024
+23:10:47.020 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2012, 2014, 2024
+23:10:47.020 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2012, 2014, 2024]
+23:10:47.020 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2012, 2014, 2024]
+23:10:47.020 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Kolkata Knight Riders
+23:10:47.020 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Kolkata Knight Riders =====
+23:10:47.022 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:47.022 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Lucknow Super Giants
+23:10:47.587 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:47.587 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Lucknow Super Giants
+23:10:47.620 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:47.620 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Lucknow Super Giants
+23:10:47.620 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Lucknow Super Giants
+23:10:48.312 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+23:10:48.312 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+23:10:48.312 [main] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Lucknow Super Giants
+23:10:48.312 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Lucknow Super Giants =====
+23:10:48.314 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:48.314 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Mumbai Indians
+23:10:48.790 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:48.791 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Mumbai Indians
+23:10:48.820 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:48.820 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Mumbai Indians
+23:10:48.820 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Mumbai Indians
+23:10:49.499 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2013 | 2015 | 2017 | 2019 | 2020
+23:10:49.500 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2013, 2015 , 2017, 2019, 2020
+23:10:49.500 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2013, 2015, 2017, 2019, 2020]
+23:10:49.500 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2013, 2015, 2017, 2019, 2020]
+23:10:49.500 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Mumbai Indians
+23:10:49.500 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Mumbai Indians =====
+23:10:49.502 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:49.502 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Punjab Kings
+23:10:50.163 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:50.163 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Punjab Kings
+23:10:50.195 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:50.195 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Punjab Kings
+23:10:50.195 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Punjab Kings
+23:10:50.868 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+23:10:50.868 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+23:10:50.868 [main] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Punjab Kings
+23:10:50.868 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Punjab Kings =====
+23:10:50.870 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:50.871 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Rajasthan Royals
+23:10:51.379 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:51.380 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Rajasthan Royals
+23:10:51.406 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:51.406 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Rajasthan Royals
+23:10:51.406 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Rajasthan Royals
+23:10:52.091 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2008
+23:10:52.091 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2008
+23:10:52.091 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2008]
+23:10:52.091 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2008]
+23:10:52.091 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Rajasthan Royals
+23:10:52.091 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Rajasthan Royals =====
+23:10:52.094 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:52.094 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Royal Challengers Bengaluru
+23:10:52.484 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:52.484 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Royal Challengers Bengaluru
+23:10:52.511 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:52.512 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Royal Challengers Bengaluru
+23:10:52.512 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Royal Challengers Bengaluru
+23:10:53.205 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2025
+23:10:53.206 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2025
+23:10:53.206 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2025]
+23:10:53.206 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2025]
+23:10:53.206 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Royal Challengers Bengaluru
+23:10:53.206 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Royal Challengers Bengaluru =====
+23:10:53.208 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+23:10:53.208 [main] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Sunrisers Hyderabad
+23:10:53.587 [main] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+23:10:53.588 [main] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Sunrisers Hyderabad
+23:10:53.615 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+23:10:53.615 [main] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Sunrisers Hyderabad
+23:10:53.615 [main] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Sunrisers Hyderabad
+23:10:54.325 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2016
+23:10:54.325 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2016
+23:10:54.325 [main] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2016]
+23:10:54.325 [main] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2016]
+23:10:54.325 [main] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Sunrisers Hyderabad
+23:10:54.325 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Sunrisers Hyderabad =====
+23:10:54.571 [main] INFO  testCases.TC002_TeamDetailsTest - Browser closed
+23:10:54.571 [main] INFO  testCases.TC002_TeamDetailsTest - ===== Test Execution Finished =====
+23:10:54.572 [main] INFO  testCases.TC003_PointTableValidation - ===== Test Execution Started =====
+23:10:55.373 [main] INFO  testCases.TC003_PointTableValidation - Launching CHROME Browser
+23:10:58.964 [main] INFO  testCases.TC003_PointTableValidation - Navigated to URL: https://www.iplt20.com/
+23:10:59.052 [main] INFO  testCases.TC003_PointTableValidation - Handled cookies popup
+23:11:01.286 [main] INFO  testCases.TC003_PointTableValidation - Browser closed
+23:11:01.287 [main] INFO  testCases.TC003_PointTableValidation - ===== Test Execution Finished =====
+23:11:01.289 [main] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Started =====
+23:11:02.080 [main] INFO  testCases.TC004_SearchFunctionality - Launching CHROME Browser
+23:11:06.571 [main] INFO  testCases.TC004_SearchFunctionality - Navigated to URL: https://www.iplt20.com/
+23:11:06.651 [main] INFO  testCases.TC004_SearchFunctionality - Handled cookies popup
+23:11:09.177 [main] INFO  testCases.TC004_SearchFunctionality - Browser closed
+23:11:09.177 [main] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Finished =====
