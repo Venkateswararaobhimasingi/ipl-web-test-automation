@@ -30,7 +30,7 @@ public class HomePageObject extends BasePageObject {
 	@FindBy(xpath = "//div[contains(@class,'matches-tabs')]//a[contains(text(),'POINTS TABLE')]")
 	WebElement matchesNavBarPointsTableLink;
 
-	By cookieBtn = By.xpath("//button[normalize-space()='Accept cookies']");
+	By cookieBtn = By.xpath("//div[@class='cookie']//button");
 
 	@FindBy(xpath = "//button[@class='search-icon-header-menu bg-transparent border-0']")
 	WebElement btn_searchBar;
@@ -130,9 +130,7 @@ public class HomePageObject extends BasePageObject {
 		if (!btns.isEmpty() && btns.get(0).isDisplayed()) {
 			btns.get(0).click();
 
-		} else {
-			System.out.println("Cookie not present or already accepted");
-		}
+		} 
 	}
 
 }

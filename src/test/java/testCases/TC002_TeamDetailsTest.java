@@ -18,14 +18,19 @@ public class TC002_TeamDetailsTest extends BaseTest{
 	TeamDetailsPageObject tpo;
 	
 	
-	@Test(dataProvider = "iplTeamData",dataProviderClass=DataProviderUtilities.class)
+	@Test( groups = {"regression"},dataProvider = "iplTeamData",dataProviderClass=DataProviderUtilities.class)
 	public void verifyTeamDetails(String teamName,String teamCode,String expectedLogo,String expectedYears) {
 		
 		    logger.info("===== Test Case: Verify Team Details Started =====");
 		    logger.info("Executing for Team: " + teamName );
+
+		  
 		    
 			hpo.navigateToTeams();
 			logger.info("Navigated to Teams page");
+			
+			 hpo.handleCookies();
+			 logger.info("Handled cookies popup");
 			
 			tpo= new TeamDetailsPageObject(driver);
 			

@@ -30,7 +30,7 @@ public class TeamDetailsPageObject extends BasePageObject {
 	
 	public void hoverOnTeamLogo(String teamCode) {
 
-	    By teamCardLocator = By.xpath("//li[contains(@class,'TL_" + teamCode + "')]");
+	    By teamCardLocator = By.xpath("//li[@class='TL_"+teamCode+"']//div[@class='vn-team-logo']/img");
 
 	    WebElement teamCard = WaitUtilities.waitForElementVisible(wait, teamCardLocator);
 	 

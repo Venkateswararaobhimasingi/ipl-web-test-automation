@@ -10,10 +10,13 @@ import pageObjects.HomePageObject;
 
 public class TC001_FooterLinks extends BaseTest {
 
-	@Test
+	@Test(groups = {"smoke"})
 	public void verifyFooterLinks() {
 		
 		logger.info("===== Test Case: Verify Footer Links Started =====");
+		
+		hpo.handleCookies();
+		logger.info("Handled cookies popup");
 			
 		hpo.scrollToBottom();
 		logger.info("Scrolled to bottom of the page");

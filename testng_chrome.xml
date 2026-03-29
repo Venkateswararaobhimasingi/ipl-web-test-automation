@@ -4,9 +4,20 @@
 
 <suite name="IPL Chrome Suite" thread-count="5">
 
-	<test thread-count="5" name="Test">
+	<listeners>
+	  <listener class-name="utilities.ExtentReportManager" />
+  </listeners>
 
+	<test thread-count="5" name="Test">
+	
 		<parameter name="browser" value="chrome" />
+		
+		<groups>
+	        <run>
+	            <include name="smoke"/>
+	            <include name="regression"/>
+	        </run>
+	    </groups>
 
 		<classes>
 		

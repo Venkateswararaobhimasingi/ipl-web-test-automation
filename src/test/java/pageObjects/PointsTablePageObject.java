@@ -1,5 +1,6 @@
 package pageObjects;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -19,39 +20,54 @@ public class PointsTablePageObject extends BasePageObject {
 	public String getTeamRank1() {
 		return txt_teamRank1.getText();
 	}
-
-	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[2]")
-	WebElement txt_matchPlayed;
-
-	public int getMatchPlayed() {
-		return Integer.parseInt(txt_matchPlayed.getText());
+	
+	private String getTeamColumnXpath(String teamCode,int colIndex) {
+	    String path= "//tbody[@id='pointsdata']//h2[contains(text(),'" + teamCode + "')]/ancestor::td/following-sibling::td["+colIndex+"]";
+	    return path;
 	}
 
-	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[3]")
-	WebElement txt_win;
+	
 
-	public int getMatchWin() {
-		return Integer.parseInt(txt_win.getText());
+	public int getMatchPlayed(String teamCode) {
+		By matchPlayedLocator=By.xpath(getTeamColumnXpath(teamCode, 1));
+		WebElement matchPlayedElement=driver.findElement(matchPlayedLocator);
+		
+		return Integer.parseInt(matchPlayedElement.getText());
 	}
 
-	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[4]")
-	WebElement txt_lost;
-
-	public int getMatchLost() {
-		return Integer.parseInt(txt_lost.getText());
+	
+	public int getMatchWin(String teamCode) {
+		By matchWinLocator=By.xpath(getTeamColumnXpath(teamCode, 2));
+		WebElement matchWinElement=driver.findElement(matchWinLocator);
+		
+		return Integer.parseInt(matchWinElement.getText());
 	}
 
-	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[5]")
-	WebElement txt_tied;
+	
 
-	public int getMatchTied() {
-		return Integer.parseInt(txt_tied.getText());
+	public int getMatchLost(String teamCode) {
+		By matchLostLocator=By.xpath(getTeamColumnXpath(teamCode, 3));
+		WebElement matchLostElement=driver.findElement(matchLostLocator);
+		
+		
+		return Integer.parseInt(matchLostElement.getText());
 	}
 
-	@FindBy(xpath = "((//tbody[@id='pointsdata']/tr)[1]//td)[9]")
-	WebElement txt_points;
+	
 
-	public int getMatchPoints() {
-		return Integer.parseInt(txt_points.getText());
+	public int getMatchNoResult(String teamCode) {
+		By matchNoResultLocator=By.xpath(getTeamColumnXpath(teamCode, 4));
+		WebElement matchNoResultElement=driver.findElement(matchNoResultLocator);
+		
+		return Integer.parseInt(matchNoResultElement.getText());
+	}
+
+	
+
+	public int getMatchPoints(String teamCode) {
+		By matchPointsLocator=By.xpath(getTeamColumnXpath(teamCode, 8));
+		WebElement matchPointsElement=driver.findElement(matchPointsLocator);
+		
+		return Integer.parseInt(matchPointsElement.getText());
 	}
 }

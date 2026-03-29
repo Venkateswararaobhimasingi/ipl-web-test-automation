@@ -17,6 +17,16 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+
+
 import pageObjects.HomePageObject;
 
 public class BaseTest {
@@ -26,7 +36,7 @@ public class BaseTest {
 	protected HomePageObject hpo;
 	protected Logger logger;
 
-	@BeforeClass
+	@BeforeClass(alwaysRun = true)
 	@Parameters({ "browser" })
 	public void setUp(String browser) {
 		
@@ -67,8 +77,7 @@ public class BaseTest {
 		logger.info("Navigated to URL: " + p.getProperty("url"));
 		
 		hpo=new HomePageObject(driver);
-		hpo.handleCookies();
-		logger.info("Handled cookies popup");
+		
 		
 		}
 		catch (IOException e) {
@@ -78,7 +87,7 @@ public class BaseTest {
 
 	}
 
-	@AfterClass
+	@AfterClass(alwaysRun = true)
 	public void tearDown() {
 
 		if (driver!= null) {
@@ -88,6 +97,26 @@ public class BaseTest {
 
         logger.info("===== Test Execution Finished =====");
 
+	}
+	
+	public String captureScreen(String tname) throws IOException {
+
+	    String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
+
+	    TakesScreenshot ts = (TakesScreenshot) driver;
+	    File sourceFile = ts.getScreenshotAs(OutputType.FILE);
+
+	    String targetDir = System.getProperty("user.dir") + "\\screenshots\\";
+	    File dir = new File(targetDir);
+	    if (!dir.exists()) {
+	        dir.mkdirs();
+	    }
+
+	    String targetFilePath = targetDir + tname + "_" + timeStamp + ".png";
+
+	    FileUtils.copyFile(sourceFile, new File(targetFilePath));
+
+	    return targetFilePath;
 	}
 
 }
