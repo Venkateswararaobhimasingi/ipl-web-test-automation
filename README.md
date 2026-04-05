@@ -1,4 +1,4 @@
-# IPL Web Test Automation Framework
+# Precision UI Hybrid Automation Framework
 
 ## 📌 Veeva Assignment for Fresh Graduates
 
