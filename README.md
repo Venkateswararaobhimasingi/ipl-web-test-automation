@@ -40,6 +40,9 @@ The framework demonstrates strong capabilities in:
 
 ### 📁 Project Structure
 
+## 📁 Project Structure
+
+```text
 IPLWebTestAutomation/
 │
 ├── src/
@@ -72,24 +75,14 @@ IPLWebTestAutomation/
 │   │       └── TeamData_IPL_TestCase02.xlsx
 │
 ├── reports/
-│   └── (Extent Report HTML files)
-│
 ├── screenshots/
-│   └── (Failure screenshots PNGs)
-│
 ├── logs/
-│   └── ipl-automation.log
-│
 ├── test-output/
-│   └── (TestNG default reports)
-│
 ├── target/
-│   └── (Compiled classes – auto-generated, ignore)
-│
-├── .settings/               # Eclipse config
-├── .git/                    # Git internal files (ignore)
-│
-└── pom.xml                  # Maven config (IMPORTANT)
+├── .settings/
+├── .git/
+└── pom.xml
+```
 
 The framework follows a **layered architecture** to ensure clean separation of concerns.
 
