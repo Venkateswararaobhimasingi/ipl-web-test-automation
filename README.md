@@ -40,22 +40,56 @@ The framework demonstrates strong capabilities in:
 
 ### 📁 Project Structure
 
-src
- ├── main/java
- │    ├── base
- │    ├── pageObjects
- │    └── utilities
- │
- ├── test/java
- │    └── tests
- │
- ├── resources
- │    ├── testdata
- │    └── config
- │
-reports/
-screenshots/
-logs/
+IPLWebTestAutomation/
+│
+├── src/
+│   ├── test/
+│   │   ├── java/
+│   │   │   ├── base/
+│   │   │   │   ├── BasePageObject.java
+│   │   │   │   └── BaseTest.java
+│   │   │   │
+│   │   │   ├── pageObjects/
+│   │   │   │   ├── HomePageObject.java
+│   │   │   │   ├── PointsTablePageObject.java
+│   │   │   │   └── TeamDetailsPageObject.java
+│   │   │   │
+│   │   │   ├── testCases/
+│   │   │   │   ├── TC001_FooterLinks.java
+│   │   │   │   ├── TC002_TeamDetailsTest.java
+│   │   │   │   ├── TC003_PointTableValidation.java
+│   │   │   │   └── TC004_SearchFunctionality.java
+│   │   │   │
+│   │   │   └── utilities/
+│   │   │       ├── DataProviderUtilities.java
+│   │   │       ├── ExcelUtility.java
+│   │   │       ├── ExtentReportManager.java
+│   │   │       └── WaitUtilities.java
+│   │   │
+│   │   └── resources/
+│   │       ├── config.properties
+│   │       ├── log4j2.xml
+│   │       └── TeamData_IPL_TestCase02.xlsx
+│
+├── reports/
+│   └── (Extent Report HTML files)
+│
+├── screenshots/
+│   └── (Failure screenshots PNGs)
+│
+├── logs/
+│   └── ipl-automation.log
+│
+├── test-output/
+│   └── (TestNG default reports)
+│
+├── target/
+│   └── (Compiled classes – auto-generated, ignore)
+│
+├── .settings/               # Eclipse config
+├── .git/                    # Git internal files (ignore)
+│
+└── pom.xml                  # Maven config (IMPORTANT)
 
 The framework follows a **layered architecture** to ensure clean separation of concerns.
 
