@@ -8,7 +8,7 @@ public class DataProviderUtilities {
 	@DataProvider(name="iplTeamData")
 	public Object[][] getTeamData(){
 		
-		String excelPath=".\\src\\test\\resources\\TeamData_IPL_TestCase02.xlsx";
+		String excelPath=".\\testData\\TeamData_IPL_TestCase02.xlsx";
 		String sheetName="Sheet1";
 		
 		excelUtility=new ExcelUtility();
