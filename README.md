@@ -4,7 +4,25 @@
 
 ---
 
-## 1. Project Overview
+## 📖 1. Project Overview
+
+**Project Name:** Precision UI Hybrid Automation Framework  
+
+**Assignment:** Veeva Fresh Graduate Assignment – Web Test Automation  
+
+**Team Name:** Phoenix  
+
+**Team Size:** 2  
+
+**Team Members:**  
+- Venkateswara Rao Bhimasingi  
+- Sai Ganesh Immidisetti  
+
+**Duration:** March 2026 – April 2026  
+
+**Website Under Test:** https://www.iplt20.com  
+
+**GitHub Repository:** https://github.com/Venkateswararaobhimasingi/precision-ui-hybrid-automation-framework
 
 This project is a robust, production-grade **Web Test Automation Framework** designed to validate critical user journeys on the official IPL Website.
 
@@ -74,6 +92,10 @@ IPLWebTestAutomation/
 │   │       ├── log4j2.xml
 │   │       └── TeamData_IPL_TestCase02.xlsx
 │
+├── documentation/
+│   ├── Architecture_diagram.png
+│   ├── workflow_diagram.png
+│   └── Precision_UI_Hybrid_Automation_Framework.pdf
 ├── reports/
 ├── screenshots/
 ├── logs/
@@ -221,6 +243,20 @@ Execute specific browser configurations:
 * 📊 Reports → `/reports`
 * 📸 Screenshots → `/screenshots`
 * 📝 Logs → `/logs/ipl-automation.log`
+
+---
+## 📄 8. Documentation & Diagrams
+
+All project-related documents and diagrams are available in the `documentation/` folder.
+
+### 📘 Project Document
+📄 [View Full Documentation](documentation/Precision_UI_Hybrid_Automation_Framework.pdf)
+
+### 🏗️ Architecture Diagram
+![Architecture Diagram](documentation/Architecture_diagram.png)
+
+### 🔄 Workflow Diagram
+![Workflow Diagram](documentation/workflow_diagram.png)
 
 ---
 
