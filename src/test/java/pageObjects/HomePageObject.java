@@ -106,7 +106,6 @@ public class HomePageObject extends BasePageObject {
 					ele.click();
 					return;
 				} catch (Exception e) {
-					// fallback to JS click
 					js.executeScript("arguments[0].click();", ele);
 					return;
 				}
@@ -174,7 +173,7 @@ public class HomePageObject extends BasePageObject {
 	        wait.until(ExpectedConditions.invisibilityOfElementLocated(cookieAcceptBtn));
 
 	    } catch (Exception e) {
-	        // popup not present → ignore
+	     
 	    }
 	}
 	

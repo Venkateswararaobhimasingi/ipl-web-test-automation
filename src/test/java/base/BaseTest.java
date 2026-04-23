@@ -113,7 +113,6 @@ public class BaseTest {
 
 	    String targetDir = System.getProperty("user.dir") 
 	            + File.separator + "screenshots" 
-	            + File.separator + "failure" 
 	            + File.separator;
 
 	    File dir = new File(targetDir);

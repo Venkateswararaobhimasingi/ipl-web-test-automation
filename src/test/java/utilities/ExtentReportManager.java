@@ -29,7 +29,6 @@ public class ExtentReportManager implements ITestListener {
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
 
-    // ✅ Thread-safe
     public ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
     String repName;
@@ -68,8 +67,8 @@ public class ExtentReportManager implements ITestListener {
         test.get().log(Status.FAIL, result.getThrowable());
 
         try {
-            // ✅ get BaseTest instance
-            BaseTest base = (BaseTest) result.getInstance();
+            
+        	BaseTest base = (BaseTest) result.getInstance();
 
             String imgPath = base.captureScreen(result.getName());
 

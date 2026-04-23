@@ -2538,3 +2538,457 @@
 21:27:30.032 [TestNG-tests-3] INFO  testCases.TC004_SearchFunctionality - Search results: [TATA IPL 2026, Match 32: LSG vs RR – Match Report, TATA IPL 2026, Match 31: SRH vs DC – Match Report, TATA IPL 2026, Match 30: GT vs MI – Match Report, TATA IPL 2026, Match 29: PBKS vs LSG – Match Report, TATA IPL 2026, Match 28: KKR vs RR – Match Report, TATA IPL 2026, Match 27: SRH vs CSK – Match Report, TATA IPL 2026, Match 26: RCB vs DC – Match Report, TATA IPL 2026, Match 25: GT vs KKR – Match Report, TATA IPL 2026, Match 24: MI vs PBKS – Match Report, TATA IPL 2026, Match 23: RCB vs LSG – Match Report, TATA IPL 2026, Match 22: CSK vs KKR – Match Report, TATA IPL 2026, Match 21: SRH vs RR – Match Report, TATA IPL 2026, Match 20: MI vs RCB – Match Report, TATA IPL 2026, Match 19: LSG vs GT – Match Report, TATA IPL 2026, Match 18: CSK vs DC – Match Report, TATA IPL 2026, Match 17: PBKS vs SRH – Match Report, TATA IPL 2026, Match 16: RR vs RCB – Match Report, TATA IPL 2026, Match 15: KKR vs LSG – Match Report, TATA IPL Fan Parks 2026 Phase 2 to cover 30 cities across 18 states & 1 UT, TATA IPL 2026, Match 14: DC vs GT – Match Report]
 21:27:31.466 [TestNG-tests-3] INFO  testCases.TC004_SearchFunctionality - Browser closed
 21:27:31.466 [TestNG-tests-3] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Finished =====
+22:21:30.110 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\I. Sai Ganesh\Desktop\DemoOne\precision-ui-hybrid-automation-framework\testng_chrome.xml"
+22:21:30.313 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+22:21:30.650 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\I. Sai Ganesh\Desktop\DemoOne\precision-ui-hybrid-automation-framework\testng_chrome.xml
+
+22:21:31.151 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Execution Started =====
+22:21:31.151 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Execution Started =====
+22:21:31.151 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ===== Test Execution Started =====
+22:21:31.151 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Started =====
+22:21:46.827 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Launching CHROME Browser
+22:21:46.845 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Launching CHROME Browser
+22:21:46.958 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Launching CHROME Browser
+22:21:48.995 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Launching CHROME Browser
+22:21:49.445 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to URL: https://www.iplt20.com/
+22:21:50.856 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:21:50.871 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:21:51.954 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Navigated to URL: https://www.iplt20.com/
+22:21:52.000 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Case: Verify Footer Links Started =====
+22:21:52.063 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Handled cookies popup
+22:21:52.097 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Navigated to URL: https://www.iplt20.com/
+22:21:52.104 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ========Test Poinsts Table Validation Started=========
+22:21:52.157 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Scrolled to bottom of the page
+22:21:52.158 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: TEAM
+22:21:52.216 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Handled cookies popup
+22:21:52.259 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Navigated to URL: https://www.iplt20.com/
+22:21:52.277 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - === Testcase SearchFunctionality started ===
+22:21:52.444 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:21:52.445 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Chennai Super Kings
+22:21:52.893 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Clicked on search bar
+22:21:53.641 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Entered search text
+22:21:53.910 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - TEAM links are present
+22:21:53.910 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 10
+22:21:53.910 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Chennai Super Kings
+22:21:53.911 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Delhi Capitals
+22:21:53.911 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Gujarat Titans
+22:21:53.911 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Kolkata Knight Riders
+22:21:53.911 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Lucknow Super Giants
+22:21:53.911 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Mumbai Indians
+22:21:53.912 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Punjab Kings
+22:21:53.912 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Rajasthan Royals
+22:21:53.912 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Royal Challengers Bengaluru
+22:21:53.912 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Sunrisers Hyderabad
+22:21:53.912 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: ABOUT
+22:21:54.367 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Selected News filter
+22:21:54.888 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ABOUT links are present
+22:21:54.888 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 9
+22:21:54.888 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: About Us
+22:21:54.888 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Anti Corruption Code
+22:21:54.888 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Anti Doping Rules
+22:21:54.889 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: TUE Application Form
+22:21:54.889 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Anti Discrimination Code
+22:21:54.889 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Clothing And Equipment Regulations
+22:21:54.889 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Code Of Conduct For Players And Teams Officials
+22:21:54.891 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: News Access Regulations
+22:21:54.891 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Image Use Terms
+22:21:54.892 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: GUIDELINES
+22:21:55.271 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:21:55.629 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:21:55.631 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Chennai Super Kings
+22:21:55.728 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:21:55.734 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Chennai Super Kings
+22:21:55.735 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Chennai Super Kings
+22:21:55.814 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - GUIDELINES links are present
+22:21:55.814 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 6
+22:21:55.815 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: IPL Code Of Conduct For Match Officials
+22:21:55.815 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Brand And Protection Guidelines
+22:21:55.816 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Governing Council
+22:21:55.816 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Match Playing Conditions
+22:21:55.816 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: PMOA Minimum Standard
+22:21:55.816 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Suspect Action Policy
+22:21:55.816 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: CONTACT
+22:21:56.156 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - navigated to poinsts table
+22:21:56.159 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - created object of Points table PageObject and redirected
+22:21:56.161 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2010 | 2011 | 2018 | 2021 | 2023
+22:21:56.176 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2010, 2011, 2018, 2021, 2023
+22:21:56.177 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2010, 2011, 2018, 2021, 2023]
+22:21:56.177 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2010, 2011, 2018, 2021, 2023]
+22:21:56.178 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Chennai Super Kings
+22:21:56.178 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Chennai Super Kings =====
+22:21:56.199 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:21:56.199 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Delhi Capitals
+22:21:56.305 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the team ar rank1PBKS
+22:21:56.423 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - CONTACT links are present
+22:21:56.423 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 4
+22:21:56.424 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Contact Us
+22:21:56.424 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Sponsorship
+22:21:56.424 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Privacy Policy
+22:21:56.424 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Terms & Conditions
+22:21:56.425 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Test Case Pass All footer sections have links
+22:21:56.425 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Case Finished =====
+22:21:56.429 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched played by team 6
+22:21:56.574 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched won by team 5
+22:21:56.730 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched lost by team 0
+22:21:56.885 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched tied by team 1
+22:21:57.043 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched points by team 11
+22:21:57.043 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Calculated the actual points to a team and the present points to the team 
+22:21:57.045 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ==Points table validation is compleated===
+22:21:57.091 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:21:57.158 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:21:57.159 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Delhi Capitals
+22:21:57.322 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:21:57.324 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Delhi Capitals
+22:21:57.324 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Delhi Capitals
+22:21:57.737 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+22:21:57.737 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+22:21:57.738 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Delhi Capitals
+22:21:57.738 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Delhi Capitals =====
+22:21:57.753 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:21:57.767 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Gujarat Titans
+22:21:58.128 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Browser closed
+22:21:58.128 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Execution Finished =====
+22:21:58.212 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Clicked search button
+22:21:58.566 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Browser closed
+22:21:58.567 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ===== Test Execution Finished =====
+22:21:58.586 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:21:58.614 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:21:58.614 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Gujarat Titans
+22:21:58.676 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:21:58.676 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Gujarat Titans
+22:21:58.677 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Gujarat Titans
+22:21:58.941 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2022
+22:21:58.943 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2022
+22:21:58.943 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2022]
+22:21:58.943 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2022]
+22:21:58.943 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Gujarat Titans
+22:21:58.943 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Gujarat Titans =====
+22:21:58.948 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:21:58.949 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Kolkata Knight Riders
+22:21:59.167 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - cookiee handled
+22:21:59.243 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - clicked on loadmore button
+22:21:59.504 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:21:59.527 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:21:59.527 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Kolkata Knight Riders
+22:21:59.591 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:21:59.592 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Kolkata Knight Riders
+22:21:59.592 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Kolkata Knight Riders
+22:21:59.850 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2012 | 2014 | 2024
+22:21:59.850 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2012, 2014, 2024
+22:21:59.851 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2012, 2014, 2024]
+22:21:59.851 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2012, 2014, 2024]
+22:21:59.851 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Kolkata Knight Riders
+22:21:59.851 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Kolkata Knight Riders =====
+22:21:59.857 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:21:59.858 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Lucknow Super Giants
+22:22:00.200 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Search results: [TATA IPL 2026, Match 32: LSG vs RR – Match Report, TATA IPL 2026, Match 31: SRH vs DC – Match Report, TATA IPL 2026, Match 30: GT vs MI – Match Report, TATA IPL 2026, Match 29: PBKS vs LSG – Match Report, TATA IPL 2026, Match 28: KKR vs RR – Match Report, TATA IPL 2026, Match 27: SRH vs CSK – Match Report, TATA IPL 2026, Match 26: RCB vs DC – Match Report, TATA IPL 2026, Match 25: GT vs KKR – Match Report, TATA IPL 2026, Match 24: MI vs PBKS – Match Report, TATA IPL 2026, Match 23: RCB vs LSG – Match Report, TATA IPL 2026, Match 22: CSK vs KKR – Match Report, TATA IPL 2026, Match 21: SRH vs RR – Match Report, TATA IPL 2026, Match 20: MI vs RCB – Match Report, TATA IPL 2026, Match 19: LSG vs GT – Match Report, TATA IPL 2026, Match 18: CSK vs DC – Match Report, TATA IPL 2026, Match 17: PBKS vs SRH – Match Report, TATA IPL 2026, Match 16: RR vs RCB – Match Report, TATA IPL 2026, Match 15: KKR vs LSG – Match Report, TATA IPL Fan Parks 2026 Phase 2 to cover 30 cities across 18 states & 1 UT, TATA IPL 2026, Match 14: DC vs GT – Match Report]
+22:22:00.370 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:00.389 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:00.389 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Lucknow Super Giants
+22:22:00.447 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:00.447 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Lucknow Super Giants
+22:22:00.447 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Lucknow Super Giants
+22:22:01.181 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+22:22:01.181 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+22:22:01.182 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Lucknow Super Giants
+22:22:01.182 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Lucknow Super Giants =====
+22:22:01.186 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:01.186 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Mumbai Indians
+22:22:01.447 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Browser closed
+22:22:01.447 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Finished =====
+22:22:01.914 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:01.931 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:01.932 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Mumbai Indians
+22:22:01.987 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:01.987 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Mumbai Indians
+22:22:01.988 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Mumbai Indians
+22:22:02.769 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2013 | 2015 | 2017 | 2019 | 2020
+22:22:02.769 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2013, 2015 , 2017, 2019, 2020
+22:22:02.769 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2013, 2015, 2017, 2019, 2020]
+22:22:02.769 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2013, 2015, 2017, 2019, 2020]
+22:22:02.769 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Mumbai Indians
+22:22:02.769 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Mumbai Indians =====
+22:22:02.774 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:02.774 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Punjab Kings
+22:22:03.188 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:03.206 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:03.206 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Punjab Kings
+22:22:03.265 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:03.265 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Punjab Kings
+22:22:03.265 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Punjab Kings
+22:22:03.994 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+22:22:03.994 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+22:22:03.994 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Punjab Kings
+22:22:03.994 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Punjab Kings =====
+22:22:03.998 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:03.998 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Rajasthan Royals
+22:22:04.645 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:04.661 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:04.662 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Rajasthan Royals
+22:22:04.712 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:04.712 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Rajasthan Royals
+22:22:04.712 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Rajasthan Royals
+22:22:05.450 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2008
+22:22:05.450 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2008
+22:22:05.450 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2008]
+22:22:05.451 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2008]
+22:22:05.451 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Rajasthan Royals
+22:22:05.451 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Rajasthan Royals =====
+22:22:05.456 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:05.456 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Royal Challengers Bengaluru
+22:22:06.157 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:06.177 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:06.177 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Royal Challengers Bengaluru
+22:22:06.233 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:06.233 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Royal Challengers Bengaluru
+22:22:06.234 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Royal Challengers Bengaluru
+22:22:06.982 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2025
+22:22:06.982 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2025
+22:22:06.982 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2025]
+22:22:06.982 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2025]
+22:22:06.982 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Royal Challengers Bengaluru
+22:22:06.983 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Royal Challengers Bengaluru =====
+22:22:06.989 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:06.989 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Sunrisers Hyderabad
+22:22:07.425 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:07.444 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:07.444 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Sunrisers Hyderabad
+22:22:07.508 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:07.508 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Sunrisers Hyderabad
+22:22:07.508 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Sunrisers Hyderabad
+22:22:08.266 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2016
+22:22:08.267 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2016
+22:22:08.267 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2016]
+22:22:08.267 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2016]
+22:22:08.267 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Sunrisers Hyderabad
+22:22:08.267 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Sunrisers Hyderabad =====
+22:22:08.974 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Browser closed
+22:22:08.974 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Execution Finished =====
+22:22:45.453 [main] DEBUG org.testng.TestNG - suiteXmlPath: "C:\Users\I. Sai Ganesh\Desktop\DemoOne\precision-ui-hybrid-automation-framework\testng_chrome.xml"
+22:22:45.756 [main] INFO  org.testng.internal.Utils - [XmlSuite] [WARN] 'parallel' value 'true' is no longer valid, defaulting to 'methods'.
+22:22:45.906 [main] INFO  org.testng.internal.Utils - [TestNG] Running:
+  C:\Users\I. Sai Ganesh\Desktop\DemoOne\precision-ui-hybrid-automation-framework\testng_chrome.xml
+
+22:22:46.136 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Execution Started =====
+22:22:46.136 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Started =====
+22:22:46.136 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Execution Started =====
+22:22:46.136 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ===== Test Execution Started =====
+22:22:48.458 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Launching CHROME Browser
+22:22:48.458 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Launching CHROME Browser
+22:22:48.458 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Launching CHROME Browser
+22:22:48.458 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Launching CHROME Browser
+22:22:48.711 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Navigated to URL: https://www.iplt20.com/
+22:22:48.723 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Navigated to URL: https://www.iplt20.com/
+22:22:48.781 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ========Test Poinsts Table Validation Started=========
+22:22:48.781 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - === Testcase SearchFunctionality started ===
+22:22:51.944 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Navigated to URL: https://www.iplt20.com/
+22:22:51.948 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Case: Verify Footer Links Started =====
+22:22:51.972 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Handled cookies popup
+22:22:51.984 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Scrolled to bottom of the page
+22:22:51.985 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: TEAM
+22:22:52.274 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Clicked on search bar
+22:22:52.296 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - TEAM links are present
+22:22:52.296 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 10
+22:22:52.296 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Chennai Super Kings
+22:22:52.296 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Delhi Capitals
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Gujarat Titans
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Kolkata Knight Riders
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Lucknow Super Giants
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Mumbai Indians
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Punjab Kings
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Rajasthan Royals
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Royal Challengers Bengaluru
+22:22:52.297 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Sunrisers Hyderabad
+22:22:52.297 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: ABOUT
+22:22:52.381 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to URL: https://www.iplt20.com/
+22:22:52.422 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Entered search text
+22:22:52.624 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Handled cookies popup
+22:22:52.823 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ABOUT links are present
+22:22:52.824 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 9
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: About Us
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Anti Corruption Code
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Anti Doping Rules
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: TUE Application Form
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Anti Discrimination Code
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Clothing And Equipment Regulations
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Code Of Conduct For Players And Teams Officials
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: News Access Regulations
+22:22:52.824 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Image Use Terms
+22:22:52.824 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: GUIDELINES
+22:22:52.962 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Selected News filter
+22:22:53.017 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+22:22:53.032 [TestNG-test-Test-2] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+22:22:53.376 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Clicked search button
+22:22:53.394 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - GUIDELINES links are present
+22:22:53.394 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 6
+22:22:53.394 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: IPL Code Of Conduct For Match Officials
+22:22:53.394 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Brand And Protection Guidelines
+22:22:53.394 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Governing Council
+22:22:53.395 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Match Playing Conditions
+22:22:53.395 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: PMOA Minimum Standard
+22:22:53.395 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Suspect Action Policy
+22:22:53.395 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Verifying section: CONTACT
+22:22:53.896 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - CONTACT links are present
+22:22:53.897 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Link count: 4
+22:22:53.897 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Contact Us
+22:22:53.898 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Sponsorship
+22:22:53.898 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Privacy Policy
+22:22:53.898 [TestNG-test-Test-1] DEBUG testCases.TC001_FooterLinks - Link: Terms & Conditions
+22:22:53.898 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Test Case Pass All footer sections have links
+22:22:53.901 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Case Finished =====
+22:22:55.026 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - Browser closed
+22:22:55.027 [TestNG-test-Test-1] INFO  testCases.TC001_FooterLinks - ===== Test Execution Finished =====
+22:22:55.053 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:55.053 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Chennai Super Kings
+22:22:55.160 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - navigated to poinsts table
+22:22:55.161 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - created object of Points table PageObject and redirected
+22:22:55.211 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the team ar rank1PBKS
+22:22:55.241 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched played by team 6
+22:22:55.268 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched won by team 5
+22:22:55.299 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched lost by team 0
+22:22:55.330 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched tied by team 1
+22:22:55.410 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - got the matched points by team 11
+22:22:55.410 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Calculated the actual points to a team and the present points to the team 
+22:22:55.411 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ==Points table validation is compleated===
+22:22:55.636 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - Browser closed
+22:22:55.636 [TestNG-test-Test-3] INFO  testCases.TC003_PointTableValidation - ===== Test Execution Finished =====
+22:22:55.877 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:55.957 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - cookiee handled
+22:22:55.999 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - clicked on loadmore button
+22:22:56.076 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:56.080 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Chennai Super Kings
+22:22:56.121 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:56.121 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Chennai Super Kings
+22:22:56.122 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Chennai Super Kings
+22:22:56.366 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2010 | 2011 | 2018 | 2021 | 2023
+22:22:56.366 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2010, 2011, 2018, 2021, 2023
+22:22:56.366 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2010, 2011, 2018, 2021, 2023]
+22:22:56.366 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2010, 2011, 2018, 2021, 2023]
+22:22:56.367 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Chennai Super Kings
+22:22:56.367 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Chennai Super Kings =====
+22:22:56.369 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:56.369 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Delhi Capitals
+22:22:56.582 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Search results: [TATA IPL 2026, Match 32: LSG vs RR – Match Report, TATA IPL 2026, Match 31: SRH vs DC – Match Report, TATA IPL 2026, Match 30: GT vs MI – Match Report, TATA IPL 2026, Match 29: PBKS vs LSG – Match Report, TATA IPL 2026, Match 28: KKR vs RR – Match Report, TATA IPL 2026, Match 27: SRH vs CSK – Match Report, TATA IPL 2026, Match 26: RCB vs DC – Match Report, TATA IPL 2026, Match 25: GT vs KKR – Match Report, TATA IPL 2026, Match 24: MI vs PBKS – Match Report, TATA IPL 2026, Match 23: RCB vs LSG – Match Report, TATA IPL 2026, Match 22: CSK vs KKR – Match Report, TATA IPL 2026, Match 21: SRH vs RR – Match Report, TATA IPL 2026, Match 20: MI vs RCB – Match Report, TATA IPL 2026, Match 19: LSG vs GT – Match Report, TATA IPL 2026, Match 18: CSK vs DC – Match Report, TATA IPL 2026, Match 17: PBKS vs SRH – Match Report, TATA IPL 2026, Match 16: RR vs RCB – Match Report, TATA IPL 2026, Match 15: KKR vs LSG – Match Report, TATA IPL Fan Parks 2026 Phase 2 to cover 30 cities across 18 states & 1 UT, TATA IPL 2026, Match 14: DC vs GT – Match Report]
+22:22:56.758 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:56.771 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:56.771 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Delhi Capitals
+22:22:56.803 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:56.804 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Delhi Capitals
+22:22:56.804 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Delhi Capitals
+22:22:56.991 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+22:22:56.991 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+22:22:56.992 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Delhi Capitals
+22:22:56.992 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Delhi Capitals =====
+22:22:56.996 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:56.996 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Gujarat Titans
+22:22:57.280 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - Browser closed
+22:22:57.280 [TestNG-test-Test-4] INFO  testCases.TC004_SearchFunctionality - ===== Test Execution Finished =====
+22:22:57.426 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:57.447 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:57.448 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Gujarat Titans
+22:22:57.485 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:57.486 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Gujarat Titans
+22:22:57.486 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Gujarat Titans
+22:22:57.668 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2022
+22:22:57.668 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2022
+22:22:57.669 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2022]
+22:22:57.669 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2022]
+22:22:57.669 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Gujarat Titans
+22:22:57.669 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Gujarat Titans =====
+22:22:57.671 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:57.671 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Kolkata Knight Riders
+22:22:58.219 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:58.227 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:58.227 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Kolkata Knight Riders
+22:22:58.248 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:58.248 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Kolkata Knight Riders
+22:22:58.248 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Kolkata Knight Riders
+22:22:58.416 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2012 | 2014 | 2024
+22:22:58.417 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2012, 2014, 2024
+22:22:58.417 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2012, 2014, 2024]
+22:22:58.417 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2012, 2014, 2024]
+22:22:58.417 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Kolkata Knight Riders
+22:22:58.417 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Kolkata Knight Riders =====
+22:22:58.419 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:58.420 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Lucknow Super Giants
+22:22:58.775 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:58.784 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:58.784 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Lucknow Super Giants
+22:22:58.830 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:58.830 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Lucknow Super Giants
+22:22:58.830 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Lucknow Super Giants
+22:22:59.493 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+22:22:59.493 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+22:22:59.493 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Lucknow Super Giants
+22:22:59.493 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Lucknow Super Giants =====
+22:22:59.495 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:22:59.496 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Mumbai Indians
+22:22:59.765 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:22:59.774 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:22:59.774 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Mumbai Indians
+22:22:59.797 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:22:59.798 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Mumbai Indians
+22:22:59.798 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Mumbai Indians
+22:23:00.465 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2013 | 2015 | 2017 | 2019 | 2020
+22:23:00.466 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2013, 2015 , 2017, 2019, 2020
+22:23:00.466 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2013, 2015, 2017, 2019, 2020]
+22:23:00.466 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2013, 2015, 2017, 2019, 2020]
+22:23:00.466 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Mumbai Indians
+22:23:00.466 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Mumbai Indians =====
+22:23:00.468 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:23:00.469 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Punjab Kings
+22:23:00.798 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:23:00.805 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:23:00.805 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Punjab Kings
+22:23:00.827 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:23:00.827 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Punjab Kings
+22:23:00.827 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Punjab Kings
+22:23:01.485 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: NA
+22:23:01.485 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: NA
+22:23:01.485 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - No titles found (NA) for team: Punjab Kings
+22:23:01.485 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Punjab Kings =====
+22:23:01.488 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:23:01.488 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Rajasthan Royals
+22:23:01.816 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:23:01.823 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:23:01.823 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Rajasthan Royals
+22:23:01.845 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:23:01.845 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Rajasthan Royals
+22:23:01.845 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Rajasthan Royals
+22:23:02.520 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2008
+22:23:02.520 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2008
+22:23:02.520 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2008]
+22:23:02.520 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2008]
+22:23:02.520 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Rajasthan Royals
+22:23:02.520 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Rajasthan Royals =====
+22:23:02.524 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:23:02.524 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Royal Challengers Bengaluru
+22:23:03.059 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:23:03.066 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:23:03.067 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Royal Challengers Bengaluru
+22:23:03.087 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:23:03.089 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Royal Challengers Bengaluru
+22:23:03.089 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Royal Challengers Bengaluru
+22:23:03.765 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2025
+22:23:03.766 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2025
+22:23:03.766 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2025]
+22:23:03.766 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2025]
+22:23:03.766 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Royal Challengers Bengaluru
+22:23:03.766 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Royal Challengers Bengaluru =====
+22:23:03.768 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case: Verify Team Details Started =====
+22:23:03.768 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Executing for Team: Sunrisers Hyderabad
+22:23:04.275 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Navigated to Teams page
+22:23:04.282 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Handled cookies popup
+22:23:04.282 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Checking if team logo is displayed for: Sunrisers Hyderabad
+22:23:04.303 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Logo: TRUE Actual: true
+22:23:04.303 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Logo validation passed for: Sunrisers Hyderabad
+22:23:04.304 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Hovering on team logo: Sunrisers Hyderabad
+22:23:04.990 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Winning Years: 2016
+22:23:04.990 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Winning Years: 2016
+22:23:04.990 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Actual Years List: [2016]
+22:23:04.990 [TestNG-test-Test-2] DEBUG testCases.TC002_TeamDetailsTest - Expected Years List: [2016]
+22:23:04.990 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Winning years validation passed for: Sunrisers Hyderabad
+22:23:04.990 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Case Completed for Team: Sunrisers Hyderabad =====
+22:23:05.173 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - Browser closed
+22:23:05.173 [TestNG-test-Test-2] INFO  testCases.TC002_TeamDetailsTest - ===== Test Execution Finished =====

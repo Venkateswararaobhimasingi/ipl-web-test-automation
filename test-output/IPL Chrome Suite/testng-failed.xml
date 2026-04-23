@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
@@ -16,6 +16,7 @@
       <class name="testCases.TC004_SearchFunctionality">
         <methods>
           <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="search"/>
         </methods>
       </class> <!-- testCases.TC004_SearchFunctionality -->
