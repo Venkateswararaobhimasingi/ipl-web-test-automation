@@ -28,12 +28,14 @@ import org.openqa.selenium.TakesScreenshot;
 
 
 import pageObjects.HomePageObject;
+import pageObjects.PointsTablePageObject;
 
 public class BaseTest {
-
-	protected WebDriver driver;
+	
+	protected ThreadLocal<WebDriver>driver=new ThreadLocal<WebDriver>();
 	protected Properties p;
 	protected HomePageObject hpo;
+	protected PointsTablePageObject pto;
 	protected Logger logger;
 
 	@BeforeClass(alwaysRun = true)
@@ -53,15 +55,15 @@ public class BaseTest {
 		
 		switch (browser.toLowerCase()) {
 		case "chrome":
-			driver = new ChromeDriver();
+			driver.set(new ChromeDriver());
 			break;
 
 		case "edge":
-			driver = new EdgeDriver();
+			driver.set(new EdgeDriver());
 			break;
 			
 		case "firefox":
-			driver = new FirefoxDriver();
+			driver.set(new FirefoxDriver());
 			break;
 
 		default:
@@ -71,12 +73,12 @@ public class BaseTest {
 		}
 		
 		logger.info("Launching "+ browser.toUpperCase() +" Browser");
-		driver.manage().window().maximize();
+		driver.get().manage().window().maximize();
 
-		driver.get(p.getProperty("url"));
+		driver.get().get(p.getProperty("url"));
 		logger.info("Navigated to URL: " + p.getProperty("url"));
 		
-		hpo=new HomePageObject(driver);
+		hpo=new HomePageObject(driver.get());
 		
 		
 		}
@@ -91,7 +93,8 @@ public class BaseTest {
 	public void tearDown() {
 
 		if (driver!= null) {
-            driver.quit();
+            driver.get().quit();
+            driver.remove();
             logger.info("Browser closed");
         }
 
@@ -103,10 +106,16 @@ public class BaseTest {
 
 	    String timeStamp = new SimpleDateFormat("yyyyMMddHHmmss").format(new Date());
 
-	    TakesScreenshot ts = (TakesScreenshot) driver;
+	    WebDriver driverInstance = driver.get();
+
+	    TakesScreenshot ts = (TakesScreenshot) driverInstance;
 	    File sourceFile = ts.getScreenshotAs(OutputType.FILE);
 
-	    String targetDir = System.getProperty("user.dir") + "\\screenshots\\";
+	    String targetDir = System.getProperty("user.dir") 
+	            + File.separator + "screenshots" 
+	            + File.separator + "failure" 
+	            + File.separator;
+
 	    File dir = new File(targetDir);
 	    if (!dir.exists()) {
 	        dir.mkdirs();

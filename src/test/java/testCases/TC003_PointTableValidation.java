@@ -13,19 +13,18 @@ public class TC003_PointTableValidation extends base.BaseTest {
 		
 		logger.info( "========Test Poinsts Table Validation Started=========");
 		
-		
-		hpo.navigateToPointsTable();
-		
 		hpo.handleCookies();
 		logger.info("Handled cookies popup");
-		
+
+		hpo.navigateToPointsTable();
 		logger.info("navigated to poinsts table");
-		PointsTablePageObject pto = new PointsTablePageObject(driver);
+		
+		PointsTablePageObject pto = new PointsTablePageObject(driver.get());
 		
 		logger.info("created object of Points table PageObject and redirected");
 		//System.out.println(pto.getTeamRank1());
 		String teamCode=pto.getTeamRank1();
-		
+
 		logger.info("got the team ar rank1"+teamCode);
 		int played = pto.getMatchPlayed(teamCode);
 		logger.info("got the matched played by team "+played);
@@ -43,7 +42,8 @@ public class TC003_PointTableValidation extends base.BaseTest {
 		logger.info("got the matched points by team "+points);
 		logger.info("Calculated the actual points to a team and the present points to the team ");
 
-		Assert.assertEquals((2 * win) + noResult == points, win + lost + noResult == played);
+		Assert.assertEquals((2 * win) + noResult , points);
+		Assert.assertEquals(win + lost + noResult, played);
 		logger.info("==Points table validation is compleated===");
 	}
 

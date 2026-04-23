@@ -13,13 +13,12 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC003_PointTableValidation">
+      <class name="testCases.TC004_SearchFunctionality">
         <methods>
           <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testTeamNameAtRank1"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- testCases.TC003_PointTableValidation -->
+      </class> <!-- testCases.TC004_SearchFunctionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [IPL Chrome Suite] -->

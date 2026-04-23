@@ -1,12 +1,14 @@
 package pageObjects;
 
 import java.util.ArrayList;
+import java.util.HashSet;
 import java.util.List;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 
 import base.BasePageObject;
@@ -18,76 +20,100 @@ public class HomePageObject extends BasePageObject {
 		super(driver);
 	}
 
-	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='TEAMS']")
-	WebElement navBarTeamsLink;
+	By navBarTeamsLink = By.xpath("//div[@class='site-navbar-wrap']//a[@data-element_text='TEAMS']");
 
-	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='POINTS TABLE']")
-	List<WebElement> navBarPointsTableLink;
+	By navBarPointsTableLink = By.xpath("//div[@class='site-navbar-wrap']//a[@data-element_text='POINTS TABLE']");
 
-	@FindBy(xpath = "//div[@class='site-navbar-wrap']//a[@data-element_text='MATCHES']")
-	WebElement navBarMatchesLink;
+	By navBarMatchesLink = By.xpath("//div[@class='site-navbar-wrap']//a[@data-element_text='MATCHES']");
 
-	@FindBy(xpath = "//div[contains(@class,'matches-tabs')]//a[contains(text(),'POINTS TABLE')]")
-	WebElement matchesNavBarPointsTableLink;
+	By matchesNavBarPointsTableLink = By
+			.xpath("//div[contains(@class,'matches-tabs')]//a[contains(text(),'POINTS TABLE')]");
 
 	By cookieBtn = By.xpath("//div[@class='cookie']//button");
 
-	@FindBy(xpath = "//button[@class='search-icon-header-menu bg-transparent border-0']")
-	WebElement btn_searchBar;
+	By btn_searchBar = By.xpath("//button[@class='search-icon-header-menu bg-transparent border-0']");
 
 	public void clickSearchBar() {
-		btn_searchBar.click();
+
+		WebElement btn_searchBarElement = WaitUtilities.waitForElementToBeClickable(wait, btn_searchBar);
+		btn_searchBarElement.click();
 	}
 
-	@FindBy(xpath = "//select[@id='search_type']")
-	WebElement select_SearchType;
+	By select_SearchType = By.xpath("//select[@id='search_type']");
 
 	public void searchTypeNews() {
-		Select select = new Select(select_SearchType);
+
+		WebElement select_SearchTypeElement = WaitUtilities.waitForElementVisible(wait, select_SearchType);
+
+		Select select = new Select(select_SearchTypeElement);
 		select.selectByVisibleText("News");
 	}
 
-	@FindBy(xpath = "//input[@id='searchInputForHeader']")
-	WebElement txt_search;
+	By txt_search = By.xpath("//input[@id='searchInputForHeader']");
 
 	public void search(String text) {
-		txt_search.sendKeys(text);
+
+		WebElement txt_searchElement = WaitUtilities.waitForElementVisible(wait, txt_search);
+		txt_searchElement.sendKeys(text);
 	}
 
-	@FindBy(xpath = "//b[@id='searchText']")
-	WebElement btn_search;
+	By btn_search = By.xpath("//b[@id='searchText']");
 
 	public void click_search() {
-		btn_search.click();
+		WebElement btn_searchElement = WaitUtilities.waitForElementToBeClickable(wait, btn_search);
+		btn_searchElement.click();
 	}
 
-	@FindBy(xpath = "//li[@class='textTwoLine']")
-	WebElement txt_searchResults;
+	By txt_searchResults = By.xpath("//li[@class='textTwoLine']");
 
-	public String searchResult() {
-		return txt_searchResults.getText();
+	public List<String> searchResults() {
+
+	    By resultsLocator = By.xpath("//li[@class='textTwoLine']");
+	    List<WebElement> elements = WaitUtilities.waitForAllElementsVisible(wait, resultsLocator);
+
+	    List<String> results = new ArrayList<>();
+
+	    for (WebElement ele : elements) {
+	        String text = ele.getText();
+	        if (!text.isEmpty()) {
+	            results.add(text);
+	        }
+	    }
+
+	    return results;
 	}
 
 	public void navigateToPointsTable() {
 
-		boolean isPointsTablePresent = navBarPointsTableLink.isEmpty();
+		WebElement navBarPointsTableLinkElement = WaitUtilities.waitForElementToBeClickable(wait,
+				navBarPointsTableLink);
 
-		if (!isPointsTablePresent) {
-
-			navBarPointsTableLink.get(0).click();
-		} else {
-
-			navBarMatchesLink.click();
-
-			matchesNavBarPointsTableLink.click();
-
+		try {
+			navBarPointsTableLinkElement.click();
+		} catch (Exception e) {
+			e.printStackTrace();
 		}
 
 	}
 
 	public void navigateToTeams() {
 
-		navBarTeamsLink.click();
+		List<WebElement> elements = WaitUtilities.waitForAllElementsVisible(wait, navBarTeamsLink);
+
+		for (WebElement ele : elements) {
+			if (ele.isDisplayed() && ele.isEnabled()) {
+				try {
+					ele.click();
+					return;
+				} catch (Exception e) {
+					// fallback to JS click
+					js.executeScript("arguments[0].click();", ele);
+					return;
+				}
+			}
+		}
+
+		throw new RuntimeException("No clickable Teams link found");
 	}
 
 	public void scrollToBottom() {
@@ -123,6 +149,35 @@ public class HomePageObject extends BasePageObject {
 
 	}
 
+	By btn_loadMore = By.xpath("//button[contains(text(),'Load More')]");
+
+	public void clickLoadMoreBtn() {
+		WebElement btn_loadMoreElement = WaitUtilities.waitForElementToBeClickable(wait, btn_loadMore);
+		js.executeScript("arguments[0].click();", btn_loadMoreElement);
+	}
+	
+	public void handleCookiesBtn() {
+
+	    By cookieAcceptBtn = By.xpath("//button[contains(text(),'Accept')]");
+
+	    try {
+	        WebElement btn = wait.until(ExpectedConditions.presenceOfElementLocated(cookieAcceptBtn));
+
+	        wait.until(ExpectedConditions.visibilityOf(btn));
+
+	        try {
+	            btn.click();
+	        } catch (Exception e) {
+	            js.executeScript("arguments[0].click();", btn);
+	        }
+
+	        wait.until(ExpectedConditions.invisibilityOfElementLocated(cookieAcceptBtn));
+
+	    } catch (Exception e) {
+	        // popup not present → ignore
+	    }
+	}
+	
 	public void handleCookies() {
 
 		List<WebElement> btns = driver.findElements(cookieBtn);
@@ -130,7 +185,7 @@ public class HomePageObject extends BasePageObject {
 		if (!btns.isEmpty() && btns.get(0).isDisplayed()) {
 			btns.get(0).click();
 
-		} 
+		}
 	}
 
 }

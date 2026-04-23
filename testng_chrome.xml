@@ -8,7 +8,7 @@
 	  <listener class-name="utilities.ExtentReportManager" />
   </listeners>
 
-	<test thread-count="5" name="Test">
+	<test thread-count="5" name="Test" parallel="true">
 	
 		<parameter name="browser" value="chrome" />
 		

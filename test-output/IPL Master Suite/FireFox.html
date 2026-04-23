@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>FireFox</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>12/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Tue Apr 07 16:42:56 IST 2026</td>
+<td>Started on:</td><td>Thu Apr 23 20:32:27 IST 2026</td>
 </tr>
-<tr><td>Total time:</td><td>69 seconds (69108 ms)</td>
+<tr><td>Total time:</td><td>120 seconds (120746 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td>regression smoke </td>
 </tr><tr>
@@ -67,6 +67,53 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testCases.TC004_SearchFunctionality.search()'><b>search</b><br>Test class: testCases.TC004_SearchFunctionality</td>
+<td><div><pre>java.lang.AssertionError: Expected result not found! expected [true] but found [false]
+	at testCases.TC004_SearchFunctionality.search(TC004_SearchFunctionality.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace722557699", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace722557699'><pre>java.lang.AssertionError: Expected result not found! expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1590)
+	at org.testng.Assert.assertTrue(Assert.java:57)
+	at testCases.TC004_SearchFunctionality.search(TC004_SearchFunctionality.java:41)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1604)
+	at org.testng.TestRunner.privateRun(TestRunner.java:741)
+	at org.testng.TestRunner.run(TestRunner.java:616)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+</pre></div></td>
+<td>5</td>
+<td>testCases.TC004_SearchFunctionality@5a755cc1</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -76,70 +123,65 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Royal Challengers Bengaluru, RCB, TRUE, 2025</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
-<tr>
-<td title='testCases.TC001_FooterLinks.verifyFooterLinks()'><b>verifyFooterLinks</b><br>Test class: testCases.TC001_FooterLinks</td>
-<td></td>
-<td>0</td>
-<td>testCases.TC001_FooterLinks@1e636ea3</td></tr>
-<tr>
 <td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Gujarat Titans, GT, TRUE, 2022</td>
 <td></td>
-<td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
-<tr>
-<td title='testCases.TC003_PointTableValidation.testTeamNameAtRank1()'><b>testTeamNameAtRank1</b><br>Test class: testCases.TC003_PointTableValidation</td>
-<td></td>
-<td>4</td>
-<td>testCases.TC003_PointTableValidation@736caf7a</td></tr>
+<td>0</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
 <tr>
 <td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Kolkata Knight Riders, KKR, TRUE, 2012, 2014, 2024</td>
 <td></td>
-<td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
+<td>0</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
 <tr>
 <td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Rajasthan Royals, RR, TRUE, 2008</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
 <tr>
-<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Delhi Capitals, DC, TRUE, NA</td>
+<td title='testCases.TC001_FooterLinks.verifyFooterLinks()'><b>verifyFooterLinks</b><br>Test class: testCases.TC001_FooterLinks</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
-<tr>
-<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Sunrisers Hyderabad, SRH, TRUE, 2016</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
-<tr>
-<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Lucknow Super Giants, LSG, TRUE, NA</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
-<tr>
-<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Mumbai Indians, MI, TRUE, 2013, 2015 , 2017, 2019, 2020</td>
-<td></td>
-<td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
-<tr>
-<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Chennai Super Kings, CSK, TRUE, 2010, 2011, 2018, 2021, 2023</td>
-<td></td>
-<td>3</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
+<td>testCases.TC001_FooterLinks@764faa6</td></tr>
 <tr>
 <td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Punjab Kings, PBKS, TRUE, NA</td>
 <td></td>
 <td>1</td>
-<td>testCases.TC002_TeamDetailsTest@115667d</td></tr>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
 <tr>
-<td title='testCases.TC004_SearchFunctionality.search()'><b>search</b><br>Test class: testCases.TC004_SearchFunctionality</td>
+<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Royal Challengers Bengaluru, RCB, TRUE, 2025</td>
 <td></td>
-<td>4</td>
-<td>testCases.TC004_SearchFunctionality@4ce7fffa</td></tr>
+<td>1</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
+<tr>
+<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Chennai Super Kings, CSK, TRUE, 2010, 2011, 2018, 2021, 2023</td>
+<td></td>
+<td>20</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
+<tr>
+<td title='testCases.TC003_PointTableValidation.testTeamNameAtRank1()'><b>testTeamNameAtRank1</b><br>Test class: testCases.TC003_PointTableValidation</td>
+<td></td>
+<td>3</td>
+<td>testCases.TC003_PointTableValidation@598bd2ba</td></tr>
+<tr>
+<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Mumbai Indians, MI, TRUE, 2013, 2015 , 2017, 2019, 2020</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
+<tr>
+<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Delhi Capitals, DC, TRUE, NA</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
+<tr>
+<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Lucknow Super Giants, LSG, TRUE, NA</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
+<tr>
+<td title='testCases.TC002_TeamDetailsTest.verifyTeamDetails()'><b>verifyTeamDetails</b><br>Test class: testCases.TC002_TeamDetailsTest<br>Parameters: Sunrisers Hyderabad, SRH, TRUE, 2016</td>
+<td></td>
+<td>1</td>
+<td>testCases.TC002_TeamDetailsTest@4c1f22f3</td></tr>
 </table><p>
 </body>
 </html>
