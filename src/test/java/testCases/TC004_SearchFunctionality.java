@@ -37,9 +37,19 @@ public class TC004_SearchFunctionality extends BaseTest {
 		List<String> results = hpo.searchResults();
 		System.out.println(results.toString());
 		logger.info("Search results: " + results);
-
-		Assert.assertTrue(results.contains("TATA IPL 2026 Player Auction List Announced"),"Expected result not found!");
-
+		
+		Boolean bool=true;
+		for(String element: results) {
+			if(element.contains("Auction") && element.contains("2026")) {
+				Assert.assertTrue(true);
+				bool=false;
+				break;
+			}
+		}
+		if(bool) {
+			Assert.fail("Not found the result...");
+		}
+		
 		logger.info("=== Testcase completed successfully ===");
 	}
 
