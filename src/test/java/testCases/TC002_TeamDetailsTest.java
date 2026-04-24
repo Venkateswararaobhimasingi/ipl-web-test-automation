@@ -32,7 +32,7 @@ public class TC002_TeamDetailsTest extends BaseTest{
 			 hpo.handleCookies();
 			 logger.info("Handled cookies popup");
 			
-			tpo= new TeamDetailsPageObject(driver);
+			tpo= new TeamDetailsPageObject(driver.get());
 			
 			logger.info("Checking if team logo is displayed for: " + teamName);
 			boolean isTeamLogoDisplayed= tpo.teamLogoIsDisplayed(teamCode);

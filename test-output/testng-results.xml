@@ -1,32 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="39" passed="39" failed="0" skipped="0">
+<testng-results ignored="0" total="13" passed="12" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-07T16:40:38 IST" name="IPL Master Suite" finished-at="2026-04-07T16:44:05 IST" duration-ms="207839">
+  <suite started-at="2026-04-23T22:22:45 IST" name="IPL Chrome Suite" finished-at="2026-04-23T22:23:05 IST" duration-ms="19262">
     <groups>
       <group name="regression">
-        <method signature="TC002_TeamDetailsTest.verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" name="verifyTeamDetails" class="testCases.TC002_TeamDetailsTest"/>
-        <method signature="TC003_PointTableValidation.testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@1a6c1270]" name="testTeamNameAtRank1" class="testCases.TC003_PointTableValidation"/>
-        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@18a136ac]" name="search" class="testCases.TC004_SearchFunctionality"/>
-        <method signature="TC002_TeamDetailsTest.verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" name="verifyTeamDetails" class="testCases.TC002_TeamDetailsTest"/>
-        <method signature="TC003_PointTableValidation.testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@687ef2e0]" name="testTeamNameAtRank1" class="testCases.TC003_PointTableValidation"/>
-        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@15dcfae7]" name="search" class="testCases.TC004_SearchFunctionality"/>
-        <method signature="TC002_TeamDetailsTest.verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" name="verifyTeamDetails" class="testCases.TC002_TeamDetailsTest"/>
-        <method signature="TC003_PointTableValidation.testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@736caf7a]" name="testTeamNameAtRank1" class="testCases.TC003_PointTableValidation"/>
-        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@4ce7fffa]" name="search" class="testCases.TC004_SearchFunctionality"/>
+        <method signature="TC002_TeamDetailsTest.verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" name="verifyTeamDetails" class="testCases.TC002_TeamDetailsTest"/>
+        <method signature="TC003_PointTableValidation.testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@7c8c9a05]" name="testTeamNameAtRank1" class="testCases.TC003_PointTableValidation"/>
+        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@d41f816]" name="search" class="testCases.TC004_SearchFunctionality"/>
       </group> <!-- regression -->
       <group name="smoke">
-        <method signature="TC001_FooterLinks.verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@6ad3381f]" name="verifyFooterLinks" class="testCases.TC001_FooterLinks"/>
-        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@18a136ac]" name="search" class="testCases.TC004_SearchFunctionality"/>
-        <method signature="TC001_FooterLinks.verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@2654635]" name="verifyFooterLinks" class="testCases.TC001_FooterLinks"/>
-        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@15dcfae7]" name="search" class="testCases.TC004_SearchFunctionality"/>
-        <method signature="TC001_FooterLinks.verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@1e636ea3]" name="verifyFooterLinks" class="testCases.TC001_FooterLinks"/>
-        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@4ce7fffa]" name="search" class="testCases.TC004_SearchFunctionality"/>
+        <method signature="TC001_FooterLinks.verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@7a67e3c6]" name="verifyFooterLinks" class="testCases.TC001_FooterLinks"/>
+        <method signature="TC004_SearchFunctionality.search()[pri:0, instance:testCases.TC004_SearchFunctionality@d41f816]" name="search" class="testCases.TC004_SearchFunctionality"/>
       </group> <!-- smoke -->
     </groups>
-    <test started-at="2026-04-07T16:40:38 IST" name="Chrome" finished-at="2026-04-07T16:41:37 IST" duration-ms="59752">
+    <test started-at="2026-04-23T22:22:45 IST" name="Test" finished-at="2026-04-23T22:23:05 IST" duration-ms="19262">
       <class name="testCases.TC003_PointTableValidation">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@1a6c1270]" started-at="2026-04-07T16:41:13 IST" name="setUp" finished-at="2026-04-07T16:41:19 IST" duration-ms="5376" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@7c8c9a05]" started-at="2026-04-23T22:22:46 IST" name="setUp" finished-at="2026-04-23T22:22:48 IST" duration-ms="2612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,17 +27,17 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@1a6c1270]" started-at="2026-04-07T16:41:19 IST" name="testTeamNameAtRank1" finished-at="2026-04-07T16:41:24 IST" duration-ms="5024" status="PASS">
+        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@7c8c9a05]" started-at="2026-04-23T22:22:48 IST" name="testTeamNameAtRank1" finished-at="2026-04-23T22:22:55 IST" duration-ms="6659" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testTeamNameAtRank1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@1a6c1270]" started-at="2026-04-07T16:41:24 IST" name="tearDown" finished-at="2026-04-07T16:41:24 IST" duration-ms="298" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@7c8c9a05]" started-at="2026-04-23T22:22:55 IST" name="tearDown" finished-at="2026-04-23T22:22:55 IST" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC003_PointTableValidation -->
       <class name="testCases.TC004_SearchFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC004_SearchFunctionality@18a136ac]" started-at="2026-04-07T16:41:24 IST" name="setUp" finished-at="2026-04-07T16:41:31 IST" duration-ms="7055" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC004_SearchFunctionality@d41f816]" started-at="2026-04-23T22:22:46 IST" name="setUp" finished-at="2026-04-23T22:22:48 IST" duration-ms="2612" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -58,17 +48,46 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="search()[pri:0, instance:testCases.TC004_SearchFunctionality@18a136ac]" started-at="2026-04-07T16:41:31 IST" name="search" finished-at="2026-04-07T16:41:37 IST" duration-ms="5644" status="PASS">
+        <test-method signature="search()[pri:0, instance:testCases.TC004_SearchFunctionality@d41f816]" started-at="2026-04-23T22:22:48 IST" name="search" finished-at="2026-04-23T22:22:56 IST" duration-ms="7832" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Expected result not found! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Expected result not found! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1590)
+at org.testng.Assert.assertTrue(Assert.java:57)
+at testCases.TC004_SearchFunctionality.search(TC004_SearchFunctionality.java:41)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
+at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1090)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:614)
+at java.base/java.lang.Thread.run(Thread.java:1474)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchFunctionality@18a136ac]" started-at="2026-04-07T16:41:37 IST" name="tearDown" finished-at="2026-04-07T16:41:37 IST" duration-ms="453" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchFunctionality@d41f816]" started-at="2026-04-23T22:22:57 IST" name="tearDown" finished-at="2026-04-23T22:22:57 IST" duration-ms="260" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC004_SearchFunctionality -->
       <class name="testCases.TC002_TeamDetailsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:40:51 IST" name="setUp" finished-at="2026-04-07T16:40:56 IST" duration-ms="5306" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:46 IST" name="setUp" finished-at="2026-04-23T22:22:52 IST" duration-ms="6257" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,7 +98,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:40:57 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:40:59 IST" duration-ms="2498" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:55 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:22:56 IST" duration-ms="1328" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -105,7 +124,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:40:59 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:01 IST" duration-ms="1201" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:56 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:22:56 IST" duration-ms="624" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -131,7 +150,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:01 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:02 IST" duration-ms="1238" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:56 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:22:57 IST" duration-ms="674" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -157,7 +176,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:02 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:03 IST" duration-ms="1267" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:57 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:22:58 IST" duration-ms="747" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -183,7 +202,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:03 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:05 IST" duration-ms="2124" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:58 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:22:59 IST" duration-ms="1075" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -209,7 +228,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:05 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:07 IST" duration-ms="1460" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:22:59 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:23:00 IST" duration-ms="971" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -235,7 +254,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:07 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:08 IST" duration-ms="1555" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:23:00 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:23:01 IST" duration-ms="1017" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -261,7 +280,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:08 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:10 IST" duration-ms="1550" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:23:01 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:23:02 IST" duration-ms="1033" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -287,7 +306,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:10 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:11 IST" duration-ms="1519" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:23:02 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:23:03 IST" duration-ms="1244" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -313,7 +332,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:11 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:41:13 IST" duration-ms="1699" status="PASS">
+        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:23:03 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-23T22:23:04 IST" duration-ms="1223" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -339,13 +358,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTeamDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_TeamDetailsTest@6d1ef78d]" started-at="2026-04-07T16:41:13 IST" name="tearDown" finished-at="2026-04-07T16:41:13 IST" duration-ms="267" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_TeamDetailsTest@600b90df]" started-at="2026-04-23T22:23:04 IST" name="tearDown" finished-at="2026-04-23T22:23:05 IST" duration-ms="181" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC002_TeamDetailsTest -->
       <class name="testCases.TC001_FooterLinks">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@6ad3381f]" started-at="2026-04-07T16:40:38 IST" name="setUp" finished-at="2026-04-07T16:40:50 IST" duration-ms="11429" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@7a67e3c6]" started-at="2026-04-23T22:22:46 IST" name="setUp" finished-at="2026-04-23T22:22:51 IST" duration-ms="5821" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -356,699 +375,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@6ad3381f]" started-at="2026-04-07T16:40:50 IST" name="verifyFooterLinks" finished-at="2026-04-07T16:40:51 IST" duration-ms="966" status="PASS">
+        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@7a67e3c6]" started-at="2026-04-23T22:22:51 IST" name="verifyFooterLinks" finished-at="2026-04-23T22:22:53 IST" duration-ms="1956" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyFooterLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@6ad3381f]" started-at="2026-04-07T16:40:51 IST" name="tearDown" finished-at="2026-04-07T16:40:51 IST" duration-ms="274" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@7a67e3c6]" started-at="2026-04-23T22:22:53 IST" name="tearDown" finished-at="2026-04-23T22:22:55 IST" duration-ms="1062" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_FooterLinks -->
-    </test> <!-- Chrome -->
-    <test started-at="2026-04-07T16:41:42 IST" name="Edge" finished-at="2026-04-07T16:42:54 IST" duration-ms="72287">
-      <class name="testCases.TC003_PointTableValidation">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@687ef2e0]" started-at="2026-04-07T16:42:30 IST" name="setUp" finished-at="2026-04-07T16:42:36 IST" duration-ms="6122" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@687ef2e0]" started-at="2026-04-07T16:42:36 IST" name="testTeamNameAtRank1" finished-at="2026-04-07T16:42:42 IST" duration-ms="5154" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTeamNameAtRank1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@687ef2e0]" started-at="2026-04-07T16:42:42 IST" name="tearDown" finished-at="2026-04-07T16:42:42 IST" duration-ms="377" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_PointTableValidation -->
-      <class name="testCases.TC004_SearchFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC004_SearchFunctionality@15dcfae7]" started-at="2026-04-07T16:42:42 IST" name="setUp" finished-at="2026-04-07T16:42:50 IST" duration-ms="8063" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search()[pri:0, instance:testCases.TC004_SearchFunctionality@15dcfae7]" started-at="2026-04-07T16:42:50 IST" name="search" finished-at="2026-04-07T16:42:54 IST" duration-ms="3730" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchFunctionality@15dcfae7]" started-at="2026-04-07T16:42:54 IST" name="tearDown" finished-at="2026-04-07T16:42:54 IST" duration-ms="313" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_SearchFunctionality -->
-      <class name="testCases.TC002_TeamDetailsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:08 IST" name="setUp" finished-at="2026-04-07T16:42:14 IST" duration-ms="6178" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:14 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:17 IST" duration-ms="2314" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chennai Super Kings]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CSK]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2010, 2011, 2018, 2021, 2023]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:17 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:18 IST" duration-ms="1202" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Delhi Capitals]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DC]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:18 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:19 IST" duration-ms="1205" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Gujarat Titans]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GT]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2022]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:19 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:20 IST" duration-ms="1096" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kolkata Knight Riders]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[KKR]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2012, 2014, 2024]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:20 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:22 IST" duration-ms="1601" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lucknow Super Giants]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LSG]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:22 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:24 IST" duration-ms="1643" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mumbai Indians]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MI]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2013, 2015 , 2017, 2019, 2020]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:24 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:25 IST" duration-ms="1715" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Punjab Kings]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[PBKS]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:25 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:27 IST" duration-ms="1706" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rajasthan Royals]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RR]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2008]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:27 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:28 IST" duration-ms="1460" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Royal Challengers Bengaluru]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RCB]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2025]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:28 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:42:30 IST" duration-ms="1510" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sunrisers Hyderabad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SRH]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2016]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_TeamDetailsTest@737a135b]" started-at="2026-04-07T16:42:30 IST" name="tearDown" finished-at="2026-04-07T16:42:30 IST" duration-ms="315" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_TeamDetailsTest -->
-      <class name="testCases.TC001_FooterLinks">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@2654635]" started-at="2026-04-07T16:41:42 IST" name="setUp" finished-at="2026-04-07T16:42:07 IST" duration-ms="25131" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@2654635]" started-at="2026-04-07T16:42:07 IST" name="verifyFooterLinks" finished-at="2026-04-07T16:42:08 IST" duration-ms="999" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFooterLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@2654635]" started-at="2026-04-07T16:42:08 IST" name="tearDown" finished-at="2026-04-07T16:42:08 IST" duration-ms="333" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_FooterLinks -->
-    </test> <!-- Edge -->
-    <test started-at="2026-04-07T16:42:56 IST" name="FireFox" finished-at="2026-04-07T16:44:05 IST" duration-ms="69108">
-      <class name="testCases.TC003_PointTableValidation">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC003_PointTableValidation@736caf7a]" started-at="2026-04-07T16:43:36 IST" name="setUp" finished-at="2026-04-07T16:43:44 IST" duration-ms="7744" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="testTeamNameAtRank1()[pri:0, instance:testCases.TC003_PointTableValidation@736caf7a]" started-at="2026-04-07T16:43:44 IST" name="testTeamNameAtRank1" finished-at="2026-04-07T16:43:48 IST" duration-ms="4446" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testTeamNameAtRank1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC003_PointTableValidation@736caf7a]" started-at="2026-04-07T16:43:48 IST" name="tearDown" finished-at="2026-04-07T16:43:50 IST" duration-ms="1512" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC003_PointTableValidation -->
-      <class name="testCases.TC004_SearchFunctionality">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC004_SearchFunctionality@4ce7fffa]" started-at="2026-04-07T16:43:50 IST" name="setUp" finished-at="2026-04-07T16:43:59 IST" duration-ms="9327" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="search()[pri:0, instance:testCases.TC004_SearchFunctionality@4ce7fffa]" started-at="2026-04-07T16:43:59 IST" name="search" finished-at="2026-04-07T16:44:04 IST" duration-ms="4790" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- search -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_SearchFunctionality@4ce7fffa]" started-at="2026-04-07T16:44:04 IST" name="tearDown" finished-at="2026-04-07T16:44:05 IST" duration-ms="1266" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC004_SearchFunctionality -->
-      <class name="testCases.TC002_TeamDetailsTest">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:10 IST" name="setUp" finished-at="2026-04-07T16:43:18 IST" duration-ms="8391" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:18 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:22 IST" duration-ms="3188" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chennai Super Kings]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[CSK]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2010, 2011, 2018, 2021, 2023]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:22 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:23 IST" duration-ms="1209" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Delhi Capitals]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[DC]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:23 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:24 IST" duration-ms="1111" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Gujarat Titans]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[GT]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2022]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:24 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:25 IST" duration-ms="1169" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Kolkata Knight Riders]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[KKR]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2012, 2014, 2024]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:25 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:27 IST" duration-ms="1538" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Lucknow Super Giants]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LSG]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:27 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:28 IST" duration-ms="1518" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Mumbai Indians]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[MI]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2013, 2015 , 2017, 2019, 2020]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:28 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:30 IST" duration-ms="1717" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Punjab Kings]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[PBKS]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[NA]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:30 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:32 IST" duration-ms="1879" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Rajasthan Royals]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RR]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2008]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:32 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:33 IST" duration-ms="1435" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Royal Challengers Bengaluru]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[RCB]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2025]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method signature="verifyTeamDetails(java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:33 IST" name="verifyTeamDetails" data-provider="iplTeamData" finished-at="2026-04-07T16:43:35 IST" duration-ms="1508" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Sunrisers Hyderabad]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[SRH]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[TRUE]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2016]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTeamDetails -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_TeamDetailsTest@115667d]" started-at="2026-04-07T16:43:35 IST" name="tearDown" finished-at="2026-04-07T16:43:36 IST" duration-ms="1618" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC002_TeamDetailsTest -->
-      <class name="testCases.TC001_FooterLinks">
-        <test-method is-config="true" signature="setUp(java.lang.String)[pri:0, instance:testCases.TC001_FooterLinks@1e636ea3]" started-at="2026-04-07T16:42:56 IST" name="setUp" finished-at="2026-04-07T16:43:08 IST" duration-ms="11691" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method signature="verifyFooterLinks()[pri:0, instance:testCases.TC001_FooterLinks@1e636ea3]" started-at="2026-04-07T16:43:08 IST" name="verifyFooterLinks" finished-at="2026-04-07T16:43:09 IST" duration-ms="735" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFooterLinks -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_FooterLinks@1e636ea3]" started-at="2026-04-07T16:43:09 IST" name="tearDown" finished-at="2026-04-07T16:43:10 IST" duration-ms="1216" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_FooterLinks -->
-    </test> <!-- FireFox -->
-  </suite> <!-- IPL Master Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- IPL Chrome Suite -->
 </testng-results>

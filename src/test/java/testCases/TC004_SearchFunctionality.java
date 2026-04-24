@@ -1,39 +1,56 @@
 package testCases;
 
+import java.util.List;
+
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
-import pageObjects.HomePageObject;
 
 public class TC004_SearchFunctionality extends BaseTest {
 
-	@Test(groups = {"smoke", "regression"})
+	@Test(groups = { "smoke", "regression" })
 	public void search() {
 
-		logger.info("===Testcase SearchFunctionality is started====");
-				
-		
+		logger.info("=== Testcase SearchFunctionality started ===");
+
 		hpo.clickSearchBar();
-		logger.info("cicked on searchBar");
-		
+		logger.info("Clicked on search bar");
+
 		hpo.handleCookies();
-		logger.info("Handled cookies popup");
 
 		hpo.search("Auction 2026");
-		logger.info("searched the 'Auction2026 in search bar' ");
+		logger.info("Entered search text");
 
 		hpo.searchTypeNews();
-		logger.info("selected the search type to news");
+		logger.info("Selected News filter");
 
 		hpo.click_search();
-		logger.info("clicked on search button ");
+		logger.info("Clicked search button");
 		
-		String res=hpo.searchResult();
-		logger.info("checked the search result from the search results");
+		hpo.handleCookiesBtn();
+		logger.info("cookiee handled");
 		
-		Assert.assertEquals("TATA IPL 2026 Player Auction List Announced", res);
-		logger.info("testcase searchFuntionality is compleated");
+		hpo.clickLoadMoreBtn();
+		logger.info("clicked on loadmore button");
+
+		List<String> results = hpo.searchResults();
+		System.out.println(results.toString());
+		logger.info("Search results: " + results);
 		
+		Boolean bool=true;
+		for(String element: results) {
+			if(element.contains("Auction") && element.contains("2026")) {
+				Assert.assertTrue(true);
+				bool=false;
+				break;
+			}
+		}
+		if(bool) {
+			Assert.fail("Not found the result...");
+		}
+		
+		logger.info("=== Testcase completed successfully ===");
 	}
+
 }

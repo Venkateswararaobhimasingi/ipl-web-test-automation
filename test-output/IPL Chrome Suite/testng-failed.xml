@@ -4,7 +4,7 @@
   <listeners>
     <listener class-name="utilities.ExtentReportManager"/>
   </listeners>
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <groups>
       <run>
@@ -13,13 +13,13 @@
       </run>
     </groups>
     <classes>
-      <class name="testCases.TC003_PointTableValidation">
+      <class name="testCases.TC004_SearchFunctionality">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testTeamNameAtRank1"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- testCases.TC003_PointTableValidation -->
+      </class> <!-- testCases.TC004_SearchFunctionality -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [IPL Chrome Suite] -->

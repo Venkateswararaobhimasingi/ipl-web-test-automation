@@ -28,7 +28,8 @@ public class ExtentReportManager implements ITestListener {
 
     public ExtentSparkReporter sparkReporter;
     public ExtentReports extent;
-    public ExtentTest test;
+
+    public ThreadLocal<ExtentTest> test = new ThreadLocal<>();
 
     String repName;
 
@@ -45,40 +46,41 @@ public class ExtentReportManager implements ITestListener {
 
         extent = new ExtentReports();
         extent.attachReporter(sparkReporter);
-        
-        
+
         extent.setSystemInfo("OS", System.getProperty("os.name"));
         extent.setSystemInfo("Browser", testContext.getCurrentXmlTest().getParameter("browser"));
         extent.setSystemInfo("User", System.getProperty("user.name"));
-        
-        List<String> includedGroups = testContext.getCurrentXmlTest().getIncludedGroups();
-		if(!includedGroups.isEmpty()) {
-		extent.setSystemInfo("Groups", includedGroups.toString());
-		}
     }
 
     public void onTestStart(ITestResult result) {
-        test = extent.createTest(result.getMethod().getMethodName());
+        ExtentTest extentTest = extent.createTest(result.getMethod().getMethodName());
+        test.set(extentTest);
     }
 
     public void onTestSuccess(ITestResult result) {
-        test.log(Status.PASS, result.getName() + " passed");
+        test.get().log(Status.PASS, result.getName() + " passed");
     }
 
     public void onTestFailure(ITestResult result) {
-        test.log(Status.FAIL, result.getName() + " failed");
-        test.log(Status.INFO, result.getThrowable());
+
+        test.get().log(Status.FAIL, result.getName() + " failed");
+        test.get().log(Status.FAIL, result.getThrowable());
 
         try {
-            String imgPath = ((BaseTest) result.getInstance()).captureScreen(result.getName());
-            test.addScreenCaptureFromPath(imgPath);
+            
+        	BaseTest base = (BaseTest) result.getInstance();
+
+            String imgPath = base.captureScreen(result.getName());
+
+            test.get().addScreenCaptureFromPath(imgPath);
+
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public void onTestSkipped(ITestResult result) {
-        test.log(Status.SKIP, result.getName() + " skipped");
+        test.get().log(Status.SKIP, result.getName() + " skipped");
     }
 
     public void onFinish(ITestContext testContext) {
